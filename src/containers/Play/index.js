@@ -1,12 +1,11 @@
-import React, {Component} from 'react';
-import {Switch, Route} from 'react-router-dom';
-import styled from 'react-emotion';
-import Arma from './Arma';
-import Ep from './Ep';
-import Lacl from './Lacl';
+import React, { Component } from "react";
+import { Route, Switch } from "react-router-dom";
+import styled from "react-emotion";
+import Arma from "./Arma";
+import Ep from "./Ep";
+import Lacl from "./Lacl";
 
-const PlayMain = styled('div')`
-`;
+const PlayMain = styled("div")``;
 
 class Play extends Component {
 	render() {

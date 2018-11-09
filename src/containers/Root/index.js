@@ -1,26 +1,58 @@
-import React, {Component} from 'react';
-import {Switch, Route} from 'react-router-dom';
-import styled from 'react-emotion';
-import {Body} from '../../utils/content';
-import Landing from '../Landing';
-import Home from '../Home';
-import Play from '../Play';
+import React, { Component } from "react";
+import { Route, BrowserRouter as Router } from "react-router-dom";
+import { AnimatedSwitch, spring } from "react-router-transition";
+import styled from "react-emotion";
+import { Body } from "../../utils/content";
+import Landing from "../Landing";
+import Home from "../Home";
+import Play from "../Play";
 
 const BodyMain = styled(Body)`
+	width: 100vw;
+	height: 100vh;
 `;
+
+
+const slide = val =>
+	spring(val, {
+		stiffness: 125,
+		damping: 16
+	});
+
+const rootTransitions = {
+	atEnter: {
+		offset: -100
+	},
+	atLeave: {
+		offset: slide(-150)
+	},
+	atActive: {
+		offset: slide(0)
+	}
+};
 
 class Root extends Component {
 	render() {
 		return (
-			<BodyMain>
-				<main>
-					<Switch>
-						<Route exact path="/" component={Landing} />
-						<Route exact path="/home" component={Home} />
-						<Route path="/play" component={Play} />
-					</Switch>
-				</main>
-			</BodyMain>
+			<Router>
+				<Route
+					render={({ location }) => (
+						<BodyMain>
+							<AnimatedSwitch
+								{...rootTransitions}
+								mapStyles={styles => ({
+									transform: `translateY(${styles.offset}%)`,
+									position: 'absolute',
+								})}
+							>
+								<Route exact path="/" component={Landing} />
+								<Route exact path="/home" component={Home} />
+								<Route path="/play" component={Play} />
+							</AnimatedSwitch>
+						</BodyMain>
+					)}
+				/>
+			</Router>
 		);
 	}
 }
