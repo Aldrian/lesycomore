@@ -23,9 +23,10 @@ const SP = styled(P)`
 	text-align: justify;
 `;
 const Title = styled('span')`
-	text-transform: uppercase;
+	font-variant: small-caps;
 	color: ${lightBeige};
 	font-family: 'BWHaas', sans-serif;
+	font-size: 120%;
 `;
 
 const HomeAboutContentMain = styled('div')`
@@ -120,7 +121,9 @@ class HomeAboutContent extends Component {
 						part ainsi sur les traces d’un art d’interaction
 						(situationniste) et d’immersion (lente).
 					</SP>
-					<SP>À SUIVRE</SP>
+					<SP>
+						<i>À suivre</i>
+					</SP>
 				</HomeAboutContentMain>
 			</PerfectScrollbar>
 		);

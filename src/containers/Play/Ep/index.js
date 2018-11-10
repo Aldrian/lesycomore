@@ -21,8 +21,12 @@ import {
 
 const PlaySidebar = styled('div')``;
 
+const SP = styled(P)`
+	text-align: justify;
+`;
+
 const SidebarTitle = styled(H4)`
-	text-transform: uppercase;
+	font-variant: small-caps;
 	letter-spacing: 4px;
 	color: ${props => (props.isActive ? darkBeige : primaryWhite)};
 	font-family: 'BWHaas', sans-serif;
@@ -34,11 +38,12 @@ const SidebarTitle = styled(H4)`
 `;
 
 const SidebarPlayTitle = styled(H4)`
-	text-transform: uppercase;
+	font-variant: small-caps;
 	letter-spacing: 4px;
 	color: ${primaryWhite};
 	font-family: 'BWHaas', sans-serif;
 	margin-top: 40px;
+	line-height: 1.5;
 `;
 
 const SidebarPlayInfos = styled(P)`
@@ -49,8 +54,8 @@ const SubTitle = styled('span')`
 	letter-spacing: 4px;
 	color: ${lightBeige};
 	font-family: 'BWHaas', sans-serif;
-	text-transform: uppercase;
-	font-size: 80%;
+	font-variant: small-caps;
+	font-size: 110%;
 `;
 
 const PlayContentWrapper = styled('div')`
@@ -96,16 +101,16 @@ class Ep extends Component {
 								this.props.history.push('/home');
 							}}
 						>
-							Retour
+							retour
 						</SidebarTitle>
 						<SidebarPlayTitle>
-							Éclairage <br /> public
+							éclairage <br /> public
 						</SidebarPlayTitle>
 						<SidebarPlayInfos>
-							<SubTitle>Durée :</SubTitle> 1h30
+							<SubTitle>durée :</SubTitle> 1h30
 							<br />
 							<br />
-							<SubTitle>Conception :</SubTitle>
+							<SubTitle>conception :</SubTitle>
 							<br />
 							Nina Ayachi
 							<br />
@@ -115,7 +120,7 @@ class Ep extends Component {
 							<br />
 							<br />
 							<SubTitle>
-								Collaboration <br />à la mise en scène :{' '}
+								collaboration <br />à la mise en scène :{' '}
 							</SubTitle>
 							<br />
 							Adrien madinier
@@ -126,7 +131,7 @@ class Ep extends Component {
 							Salomé Dugraindelorge
 							<br />
 							<br />
-							<SubTitle>Avec :</SubTitle>
+							<SubTitle>avec :</SubTitle>
 							<br /> Nina Ayachi
 							<br /> Victor Inisan et
 							<br /> Adrien Madinier
@@ -136,7 +141,7 @@ class Ep extends Component {
 					<PlayContentWrapper>
 						<PerfectScrollbar>
 							<PlayContent>
-								<P>
+								<SP>
 									<SubTitle>RÉSUMÉ</SubTitle> Tous les soirs,
 									c’est l’hécatombe du petit cosmos : des
 									milliers d’insectes, irrésistiblement
@@ -154,8 +159,8 @@ class Ep extends Component {
 									l’imaginaire didactique pour interpréter ce
 									voyage émotif ; une tentative désespérée de
 									reconquérir la nuit.
-								</P>
-								<P>
+								</SP>
+								<SP>
 									<SubTitle>NOTE D’INTENTION </SubTitle>{' '}
 									<i>
 										« On a les Lumières qu'on peut, notre
@@ -163,8 +168,8 @@ class Ep extends Component {
 										lumineuse. »
 									</i>{' '}
 									— Annie Le Brun, <i>Du trop de réalité </i>
-								</P>
-								<P>
+								</SP>
+								<SP>
 									Aujourd’hui, l’éclairage représente 15% de
 									la facture d’électricité mondiale, avec 4
 									milliards de lampes d’éclairage public en
@@ -183,9 +188,9 @@ class Ep extends Component {
 									remplacer : l'unique LED et ses réverbères
 									blanchis. La LED - lumière de notre temps -
 									est-elle la panacée ?
-								</P>
+								</SP>
 
-								<P>
+								<SP>
 									<i>Éclairage Public </i>
 									exhume une des apories de la LED : sa
 									couleur. Car son spectre froid — se
@@ -205,8 +210,8 @@ class Ep extends Component {
 									désoriente à mourir), l’hécatombe croît sous
 									une bannière immaculée. A-t-on oublié que la
 									plupart des animaux sont nocturnes ?
-								</P>
-								<P>
+								</SP>
+								<SP>
 									<i>Éclairage Public</i> illustre la
 									phototaxie positive d’un insecte — du
 									premier réverbère à la profusion de lumière.
@@ -230,8 +235,8 @@ class Ep extends Component {
 									facteur d’épuisement. La parabole par le fan
 									veut humaniser l’inconnu — une utopie
 									revendiquée.
-								</P>
-								<P>
+								</SP>
+								<SP>
 									Il est unanime, aujourd’hui, que la lumière
 									la moins nocive pour la faune et la flore
 									est la lampe au sodium basse pression. Seul
@@ -256,7 +261,7 @@ class Ep extends Component {
 									, disait Blanchot. Qui veut conquérir la
 									nuit remporte le jour : ainsi l’éclairage
 									public se fait vaste combat politique.
-								</P>
+								</SP>
 								<Carousel autoplay={true}>
 									<img src={public1} />
 									<img src={public2} />

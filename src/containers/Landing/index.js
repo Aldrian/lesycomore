@@ -49,7 +49,7 @@ const Logo = styled(logo)`
 `;
 
 const SiteName = styled(H4)`
-	text-transform: uppercase;
+	font-variant: small-caps;
 	letter-spacing: 8px;
 	margin-top: 50px;
 	text-align: center;

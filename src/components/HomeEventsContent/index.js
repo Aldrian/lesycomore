@@ -21,14 +21,15 @@ const HomeEventsContentMain = styled('div')`
 `;
 
 const Title = styled('span')`
-	text-transform: uppercase;
+	font-variant: small-caps;
+	letter-spacing: 4px;
 	color: ${lightBeige};
 	font-family: 'BWHaas', sans-serif;
+	font-size: 110%;
 `;
 
 const Event = styled('div')`
 	margin-bottom: 40px;
-	text-align: center;
 `;
 
 const A = styled('a')`
@@ -42,21 +43,25 @@ class HomeEventsContent extends Component {
 				<Event>
 					<Title>18 nov. 2018</Title>
 					<br />
-					Le Sycomore dans <br /> À l’écoute du Bal Rêvé <br />
+					Le Sycomore dans <br /> <i>À l’écoute du Bal Rêvé</i> <br />
 					d'Alberto Sorbelli
 					<br />
-					<br />
 					<Title>horaires :</Title> 17h-22h <br />
-					<br />
 					<Title>
-						<A href="https://www.yesgolive.com/le-generateur/a-lecoute-du-bal-reve">
-							>réservations
+						<A
+							href="https://www.yesgolive.com/le-generateur/a-lecoute-du-bal-reve"
+							target="_blank"
+						>
+							réservations
 						</A>
 					</Title>
 					<br />
 					<Title>
-						<A href="https://www.facebook.com/events/156896861924818/">
-							>event
+						<A
+							href="https://www.facebook.com/events/156896861924818/"
+							target="_blank"
+						>
+							event
 						</A>
 					</Title>
 					<br />
@@ -67,21 +72,24 @@ class HomeEventsContent extends Component {
 					<br />
 					Nuits du Sycomore <br />— #Automnale
 					<br />
-					Au revoir mon amour <br />
-					<br />
+					<i>Au revoir mon amour</i> <br />
 					<Title>horaires :</Title>
 					<br />
 					Vendredi et samedi de 20h à 00h
 					<br /> Dimanche de 18h à 22h
 					<br />
-					<br />
 					<Title>
-						<A href="mailto:judy@le-sycomore.fr">>réservations</A>
+						<A href="mailto:judy@le-sycomore.fr" target="_blank">
+							réservations
+						</A>
 					</Title>
 					<br />
 					<Title>
-						<A href="https://www.facebook.com/events/156896861924818/">
-							>event
+						<A
+							href="https://www.facebook.com/events/156896861924818/"
+							target="_blank"
+						>
+							event
 						</A>
 					</Title>
 				</Event>

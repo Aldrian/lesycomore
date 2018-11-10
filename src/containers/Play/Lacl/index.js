@@ -20,8 +20,12 @@ import {
 
 const PlaySidebar = styled('div')``;
 
+const SP = styled(P)`
+	text-align: justify;
+`;
+
 const SidebarTitle = styled(H4)`
-	text-transform: uppercase;
+	font-variant: small-caps;
 	letter-spacing: 4px;
 	color: ${props => (props.isActive ? darkBeige : primaryWhite)};
 	font-family: 'BWHaas', sans-serif;
@@ -33,11 +37,12 @@ const SidebarTitle = styled(H4)`
 `;
 
 const SidebarPlayTitle = styled(H4)`
-	text-transform: uppercase;
+	font-variant: small-caps;
 	letter-spacing: 4px;
 	color: ${primaryWhite};
 	font-family: 'BWHaas', sans-serif;
 	margin-top: 40px;
+	line-height: 1.5;
 `;
 
 const SidebarPlayInfos = styled(P)`
@@ -48,8 +53,8 @@ const SubTitle = styled('span')`
 	letter-spacing: 4px;
 	color: ${lightBeige};
 	font-family: 'BWHaas', sans-serif;
-	text-transform: uppercase;
-	font-size: 80%;
+	font-variant: small-caps;
+	font-size: 110%;
 `;
 
 const PlayContentWrapper = styled('div')`
@@ -95,21 +100,21 @@ class Lacl extends Component {
 								this.props.history.push('/home');
 							}}
 						>
-							Retour
+							retour
 						</SidebarTitle>
 						<SidebarPlayTitle>
-							L'acteur,
+							l'acteur,
 							<br />
 							cette larve
 						</SidebarPlayTitle>
 						<SidebarPlayInfos>
-							<SubTitle>Durée :</SubTitle>
+							<SubTitle>durée :</SubTitle>
 							<br /> 2h (version courte) <br /> 4h (version
 							longue)
 							<br />
 							<br />
 							<SubTitle>
-								Conception
+								conception
 								<br /> et direction :
 							</SubTitle>
 							<br />
@@ -123,7 +128,7 @@ class Lacl extends Component {
 					<PlayContentWrapper>
 						<PerfectScrollbar>
 							<PlayContent>
-								<P>
+								<SP>
 									<SubTitle>RÉSUMÉ</SubTitle>{' '}
 									<i>« L’acteur, cette larve »</i> : et si on
 									prenait la formule au sérieux ? Pour
@@ -143,7 +148,7 @@ class Lacl extends Component {
 									larve nous montrerait ce qu’il y a de
 									primitif, d’archaïque et de préhistorique
 									dans l’acte de jouer.
-								</P>
+								</SP>
 								<Carousel autoplay={true}>
 									<img src={larve1} />
 									<img src={larve2} />

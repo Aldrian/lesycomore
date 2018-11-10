@@ -22,9 +22,11 @@ const HomeContactContentMain = styled('div')`
 `;
 
 const Title = styled('span')`
-	text-transform: uppercase;
+	font-variant: small-caps;
 	color: ${lightBeige};
 	font-family: 'BWHaas', sans-serif;
+	font-size: 150%;
+	letter-spacing: 4px;
 `;
 
 const Event = styled('div')`
@@ -34,6 +36,7 @@ const Event = styled('div')`
 
 const A = styled('a')`
 	color: ${lightBeige};
+	letter-spacing: 4px;
 `;
 
 class HomeContactContent extends Component {
@@ -52,7 +55,7 @@ class HomeContactContent extends Component {
 				<br />
 				<Title>
 					<A href="mailto:contact@le-sycomore.com">
-						>contact@le-sycomore.com
+						contact@le-sycomore.com
 					</A>
 				</Title>
 			</HomeContactContentMain>

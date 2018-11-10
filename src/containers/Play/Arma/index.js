@@ -5,6 +5,8 @@ import Carousel from 'nuka-carousel';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 
+import louis from './louis.jpg';
+import louis2 from './louis2.jpg';
 import arma1 from './arma1.JPG';
 import arma2 from './arma2.jpg';
 import arma3 from './arma3.jpg';
@@ -20,8 +22,12 @@ import {
 
 const PlaySidebar = styled('div')``;
 
+const SP = styled(P)`
+	text-align: justify;
+`;
+
 const SidebarTitle = styled(H4)`
-	text-transform: uppercase;
+	font-variant: small-caps;
 	letter-spacing: 4px;
 	color: ${props => (props.isActive ? darkBeige : primaryWhite)};
 	font-family: 'BWHaas', sans-serif;
@@ -33,11 +39,12 @@ const SidebarTitle = styled(H4)`
 `;
 
 const SidebarPlayTitle = styled(H4)`
-	text-transform: uppercase;
+	font-variant: small-caps;
 	letter-spacing: 4px;
 	color: ${primaryWhite};
 	font-family: 'BWHaas', sans-serif;
 	margin-top: 40px;
+	line-height: 1.5;
 `;
 
 const SidebarPlayInfos = styled(P)`
@@ -48,8 +55,8 @@ const SubTitle = styled('span')`
 	letter-spacing: 4px;
 	color: ${lightBeige};
 	font-family: 'BWHaas', sans-serif;
-	text-transform: uppercase;
-	font-size: 80%;
+	font-variant: small-caps;
+	font-size: 110%;
 `;
 
 const PlayContentWrapper = styled('div')`
@@ -95,24 +102,24 @@ class Arma extends Component {
 								this.props.history.push('/home');
 							}}
 						>
-							Retour
+							retour
 						</SidebarTitle>
 						<SidebarPlayTitle>
-							Au revoir <br /> mon amour
+							au revoir <br /> mon amour
 						</SidebarPlayTitle>
 						<SidebarPlayInfos>
-							<SubTitle>Durée :</SubTitle> 1h30
+							<SubTitle>durée :</SubTitle> 1h30
 							<br />
 							<br />
 							<SubTitle>
-								Conception visuelle
+								conception visuelle
 								<br /> et mise en scène :
 							</SubTitle>
 							<br />
 							Victor Inisan
 							<br />
 							<br />
-							<SubTitle>Dramaturgie : </SubTitle>
+							<SubTitle>dramaturgie : </SubTitle>
 							<br />
 							Nina Ayachi et Victor Inisan
 							<br />
@@ -123,7 +130,7 @@ class Arma extends Component {
 							<br /> Nicolas Hadot
 							<br />
 							<br />
-							<SubTitle>Avec :</SubTitle>
+							<SubTitle>avec :</SubTitle>
 							<br /> Nina Ayachi
 							<br /> Giulia de Sia
 							<br /> Adrien Madinier
@@ -139,7 +146,7 @@ class Arma extends Component {
 					<PlayContentWrapper>
 						<PerfectScrollbar>
 							<PlayContent>
-								<P>
+								<SP>
 									<SubTitle>RÉSUMÉ</SubTitle>{' '}
 									<i>
 										« Deux mondes — deux réalités. La
@@ -149,8 +156,8 @@ class Arma extends Component {
 										le remplacera lors d’une cérémonie de
 										départ : qui est-ce ? »
 									</i>
-								</P>
-								<P>
+								</SP>
+								<SP>
 									Qui tente l’expérience d’
 									<i>Au revoir mon amour</i> devient un
 									complice parfaitement informé de la vie de
@@ -163,14 +170,16 @@ class Arma extends Component {
 									venu spécialement pour assister au départ de
 									Louis, que le protagoniste pourra renaître
 									sereinement lors d’une cérémonie hypnotique.
-								</P>
-								<P>
+								</SP>
+								<SP>
 									À mi-chemin entre théâtre et danse,
 									<i> Au revoir mon amour</i> imagine une
 									parabole visuelle et poétique sur la
 									migration des corps et des âmes.{' '}
-								</P>
+								</SP>
 								<Carousel autoplay={true}>
+									<img src={louis} />
+									<img src={louis2} />
 									<img src={arma1} />
 									<img src={arma2} />
 									<img src={arma3} />
