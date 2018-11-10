@@ -9,6 +9,8 @@ import larve1 from './larve1.jpg';
 import larve2 from './larve2.jpg';
 import larve3 from './larve3.jpg';
 
+import {ReactComponent as logo} from '../../logo.svg';
+
 import {
 	FlexRow,
 	H4,
@@ -17,6 +19,45 @@ import {
 	lightBeige,
 	P,
 } from '../../../utils/content';
+
+const AppIcon = styled('div')`
+	transition: all 0.3s ease;
+	&:hover {
+		filter: blur(3px);
+	}
+	cursor: pointer;
+	@media screen and (min-width: 900px) {
+		display: none;
+	}
+`;
+
+const Logo = styled(logo)`
+	width: 100px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	path {
+		fill: white;
+	}
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+`;
+
+const Title = styled(H4)`
+	font-variant: small-caps;
+	letter-spacing: 8px;
+	color: ${props => (props.isActive && !props.alwaysWhite ? darkBeige : primaryWhite)};
+	font-family: 'BWHaas', sans-serif;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	font-size: 110%;
+	text-align: center;
+	&:hover {
+		color: ${props => (props.alwaysWhite ? primaryWhite : darkBeige)};
+	}
+`;
 
 const PlayRow = styled(FlexRow)`
 	@media screen and (max-width: 900px) {
@@ -101,7 +142,8 @@ const PlayContent = styled('div')`
 	animation: ${slideTop} 0.8s ease-out;
 	@media screen and (max-width: 900px) {
 		margin-top: 20px;
-		max-height: calc(100vh - 80px);
+		min-height: calc(100vh - 230px);
+		max-height: calc(100vh - 230px);
 	}
 `;
 
@@ -134,6 +176,14 @@ class Lacl extends Component {
 	render() {
 		return (
 			<LaclMain>
+				<AppIcon
+					onClick={() => {
+						this.props.history.push('/home');
+					}}
+				>
+					<Logo />
+					<Title alwaysWhite={true}>le sycomore</Title>
+				</AppIcon>
 				<PlayRow>
 					<PlaySidebar>
 						<SidebarTitle
