@@ -94,6 +94,27 @@ const EpMain = styled('div')`
 `;
 
 class Ep extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			boxWidth: 0,
+		};
+		this.playMain = React.createRef();
+	}
+
+	updateDimensions = () => {
+		this.setState({boxWidth: this.playMain.getBoundingClientRect().width});
+	};
+
+	componentDidMount() {
+		window.addEventListener('resize', this.updateDimensions);
+		this.updateDimensions();
+	}
+
+	compomentWillUnmount() {
+		window.removeEventListener('resize', this.updateDimensions);
+	}
+
 	render() {
 		return (
 			<EpMain>
@@ -143,7 +164,11 @@ class Ep extends Component {
 					</PlaySidebar>
 					<PlayContentWrapper>
 						<PerfectScrollbar>
-							<PlayContent>
+							<PlayContent
+								innerRef={(elem) => {
+									this.playMain = elem;
+								}}
+							>
 								<SP>
 									<SubTitle>résumé</SubTitle> Tous les soirs,
 									c’est l’hécatombe du petit cosmos : des
@@ -163,7 +188,10 @@ class Ep extends Component {
 									voyage émotif ; une tentative désespérée de
 									reconquérir la nuit.
 								</SP>
-								<Carousel autoplay={true}>
+								<Carousel
+									autoplay={true}
+									width={`${this.state.boxWidth}px`}
+								>
 									<img src={public1} />
 									<img src={public2} />
 									<img src={public3} />

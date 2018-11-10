@@ -93,6 +93,27 @@ const LaclMain = styled('div')`
 `;
 
 class Lacl extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			boxWidth: 0,
+		};
+		this.playMain = React.createRef();
+	}
+
+	updateDimensions = () => {
+		this.setState({boxWidth: this.playMain.getBoundingClientRect().width});
+	};
+
+	componentDidMount() {
+		window.addEventListener('resize', this.updateDimensions);
+		this.updateDimensions();
+	}
+
+	compomentWillUnmount() {
+		window.removeEventListener('resize', this.updateDimensions);
+	}
+
 	render() {
 		return (
 			<LaclMain>
@@ -130,7 +151,11 @@ class Lacl extends Component {
 					</PlaySidebar>
 					<PlayContentWrapper>
 						<PerfectScrollbar>
-							<PlayContent>
+							<PlayContent
+								innerRef={(elem) => {
+									this.playMain = elem;
+								}}
+							>
 								<SP>
 									<SubTitle>atelier</SubTitle>
 								</SP>
@@ -155,7 +180,10 @@ class Lacl extends Component {
 									primitif, d’archaïque et de préhistorique
 									dans l’acte de jouer.
 								</SP>
-								<Carousel autoplay={true}>
+								<Carousel
+									autoplay={true}
+									width={`${this.state.boxWidth}px`}
+								>
 									<img src={larve1} />
 									<img src={larve2} />
 									<img src={larve3} />

@@ -9,11 +9,13 @@ import {
 import {ReactComponent as logo} from '../../containers/logo.svg';
 
 import {ReactComponent as Facebook} from './facebook.svg';
-import {ReactComponent as Vimeo} from './vimeo.svg';
 import {ReactComponent as Instagram} from './instagram.svg';
 
 const SidebarHomeMain = styled(FlexColumn)`
 	height: 94vh;
+	@media screen and (max-width: 640px) {
+		display: none;
+	}
 `;
 
 const LandingIcon = styled('div')`

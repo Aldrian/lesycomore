@@ -95,6 +95,27 @@ const ArmaMain = styled('div')`
 `;
 
 class Arma extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			boxWidth: 0,
+		};
+		this.playMain = React.createRef();
+	}
+
+	updateDimensions = () => {
+		this.setState({boxWidth: this.playMain.getBoundingClientRect().width});
+	};
+
+	componentDidMount() {
+		window.addEventListener('resize', this.updateDimensions);
+		this.updateDimensions();
+	}
+
+	compomentWillUnmount() {
+		window.removeEventListener('resize', this.updateDimensions);
+	}
+
 	render() {
 		return (
 			<ArmaMain>
@@ -148,7 +169,11 @@ class Arma extends Component {
 					</PlaySidebar>
 					<PlayContentWrapper>
 						<PerfectScrollbar>
-							<PlayContent>
+							<PlayContent
+								innerRef={(elem) => {
+									this.playMain = elem;
+								}}
+							>
 								<SP>
 									<SubTitle>résumé</SubTitle>{' '}
 									<i>
@@ -180,7 +205,10 @@ class Arma extends Component {
 									parabole visuelle et poétique sur la
 									migration des corps et des âmes.{' '}
 								</SP>
-								<Carousel autoplay={true}>
+								<Carousel
+									autoplay={true}
+									width={`${this.state.boxWidth}px`}
+								>
 									<img src={louis} />
 									<img src={arma1} />
 									<img src={arma2} />
