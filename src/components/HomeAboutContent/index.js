@@ -31,6 +31,8 @@ const Title = styled('span')`
 const HomeAboutContentMain = styled('div')`
 	max-height: 70vh;
 	animation: ${slideTop} 0.8s ease-out;
+	padding-left: 20px;
+	padding-right: 20px;
 `;
 
 class HomeAboutContent extends Component {
