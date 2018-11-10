@@ -6,7 +6,6 @@ import PerfectScrollbar from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 
 import louis from './louis.jpg';
-import louis2 from './louis2.jpg';
 import arma1 from './arma1.JPG';
 import arma2 from './arma2.jpg';
 import arma3 from './arma3.jpg';
@@ -20,7 +19,9 @@ import {
 	P,
 } from '../../../utils/content';
 
-const PlaySidebar = styled('div')``;
+const PlaySidebar = styled('div')`
+	max-height: calc(100vh - 80px);
+`;
 
 const SP = styled(P)`
 	text-align: justify;
@@ -43,12 +44,12 @@ const SidebarPlayTitle = styled(H4)`
 	letter-spacing: 4px;
 	color: ${primaryWhite};
 	font-family: 'BWHaas', sans-serif;
-	margin-top: 40px;
+	margin-top: 20px;
 	line-height: 1.5;
 `;
 
 const SidebarPlayInfos = styled(P)`
-	margin-top: 80px;
+	margin-top: 60px;
 `;
 
 const SubTitle = styled('span')`
@@ -63,6 +64,7 @@ const PlayContentWrapper = styled('div')`
 	padding-left: 40px;
 	padding-right: 40px;
 	flex: 2;
+	max-height: calc(100vh - 80px);
 `;
 
 const slideTop = keyframes`
@@ -89,6 +91,7 @@ const PlayContent = styled('div')`
 
 const ArmaMain = styled('div')`
 	width: calc(100vw - 80px);
+	max-height: calc(100vh - 80px);
 `;
 
 class Arma extends Component {
@@ -124,7 +127,7 @@ class Arma extends Component {
 							Nina Ayachi et Victor Inisan
 							<br />
 							<br />
-							<SubTitle>Création sonore : </SubTitle>
+							<SubTitle>création sonore : </SubTitle>
 							<br />
 							Pierre Fourmeau
 							<br /> Nicolas Hadot
@@ -147,7 +150,7 @@ class Arma extends Component {
 						<PerfectScrollbar>
 							<PlayContent>
 								<SP>
-									<SubTitle>RÉSUMÉ</SubTitle>{' '}
+									<SubTitle>résumé</SubTitle>{' '}
 									<i>
 										« Deux mondes — deux réalités. La
 										frontière qui les sépare s’évapore pour
@@ -179,7 +182,6 @@ class Arma extends Component {
 								</SP>
 								<Carousel autoplay={true}>
 									<img src={louis} />
-									<img src={louis2} />
 									<img src={arma1} />
 									<img src={arma2} />
 									<img src={arma3} />

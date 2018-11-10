@@ -24,9 +24,9 @@ const SP = styled(P)`
 `;
 const Title = styled('span')`
 	font-variant: small-caps;
+	letter-spacing: 4px;
 	color: ${lightBeige};
 	font-family: 'BWHaas', sans-serif;
-	font-size: 120%;
 `;
 
 const HomeAboutContentMain = styled('div')`
@@ -62,7 +62,7 @@ class HomeAboutContent extends Component {
 						</i>
 					</SP>
 					<SP>
-						Le <i>Sycomore</i> veut approfondir le terme de
+						<i>Le Sycomore</i> veut approfondir le terme de
 						spectacle : spectacle social, médiatique et artistique.
 						Engel écrit en 1977 :<br />
 						<i>
@@ -97,7 +97,7 @@ class HomeAboutContent extends Component {
 						à petit feu. Voilà — elle ébrèche le spectateur. Le
 						spectacle n’en est qu’une mesure (à la limite, la
 						floraison). Point de mises en scène du réel à
-						l’intérieur du <i>sycomore</i> ! — Les fictions
+						l’intérieur du <i>Sycomore</i> ! — Les fictions
 						craignent le naturalisme, elles ont connu le monde
 						renversé. Peut-être seulement, à force de surcharges
 						(acteurs, lumière, son, décor…), qu’elles finiront par
@@ -117,7 +117,7 @@ class HomeAboutContent extends Component {
 						, dit encore Kantor.
 					</SP>
 					<SP>
-						Avides des univers qui lui échappent, le <i>sycomore</i>{' '}
+						Avides des univers qui lui échappent, le <i>Sycomore</i>{' '}
 						part ainsi sur les traces d’un art d’interaction
 						(situationniste) et d’immersion (lente).
 					</SP>

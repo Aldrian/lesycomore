@@ -67,7 +67,7 @@ class Landing extends Component {
 					}}
 				>
 					<Logo />
-					<SiteName>Le sycomore</SiteName>
+					<SiteName>le sycomore</SiteName>
 				</LandingIcon>
 			</LandingMain>
 		);

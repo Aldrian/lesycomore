@@ -19,7 +19,9 @@ import {
 	P,
 } from '../../../utils/content';
 
-const PlaySidebar = styled('div')``;
+const PlaySidebar = styled('div')`
+	max-height: calc(100vh - 80px);
+`;
 
 const SP = styled(P)`
 	text-align: justify;
@@ -42,12 +44,12 @@ const SidebarPlayTitle = styled(H4)`
 	letter-spacing: 4px;
 	color: ${primaryWhite};
 	font-family: 'BWHaas', sans-serif;
-	margin-top: 40px;
+	margin-top: 20px;
 	line-height: 1.5;
 `;
 
 const SidebarPlayInfos = styled(P)`
-	margin-top: 80px;
+	margin-top: 60px;
 `;
 
 const SubTitle = styled('span')`
@@ -62,6 +64,7 @@ const PlayContentWrapper = styled('div')`
 	padding-left: 40px;
 	padding-right: 40px;
 	flex: 2;
+	max-height: calc(100vh - 80px);
 `;
 
 const slideTop = keyframes`
@@ -126,7 +129,7 @@ class Ep extends Component {
 							Adrien madinier
 							<br />
 							<br />
-							<SubTitle>Chorégraphie : </SubTitle>
+							<SubTitle>chorégraphie : </SubTitle>
 							<br />
 							Salomé Dugraindelorge
 							<br />
@@ -141,8 +144,14 @@ class Ep extends Component {
 					<PlayContentWrapper>
 						<PerfectScrollbar>
 							<PlayContent>
+								<Carousel autoplay={true}>
+									<img src={public1} />
+									<img src={public2} />
+									<img src={public3} />
+									<img src={public4} />
+								</Carousel>
 								<SP>
-									<SubTitle>RÉSUMÉ</SubTitle> Tous les soirs,
+									<SubTitle>résumé</SubTitle> Tous les soirs,
 									c’est l’hécatombe du petit cosmos : des
 									milliers d’insectes, irrésistiblement
 									attirés par la lumière artificielle,
@@ -262,12 +271,6 @@ class Ep extends Component {
 									nuit remporte le jour : ainsi l’éclairage
 									public se fait vaste combat politique.
 								</SP>
-								<Carousel autoplay={true}>
-									<img src={public1} />
-									<img src={public2} />
-									<img src={public3} />
-									<img src={public4} />
-								</Carousel>
 							</PlayContent>
 						</PerfectScrollbar>
 					</PlayContentWrapper>

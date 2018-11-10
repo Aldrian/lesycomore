@@ -31,7 +31,7 @@ const Trees = styled(FlexRow)``;
 const Tree = styled('div')`
 	cursor: pointer;
 	svg {
-		height: 200px;
+		height: 150px;
 		width: auto;
 		transition: all 0.3s ease;
 		display: block;

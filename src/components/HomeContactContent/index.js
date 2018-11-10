@@ -23,10 +23,10 @@ const HomeContactContentMain = styled('div')`
 
 const Title = styled('span')`
 	font-variant: small-caps;
+	letter-spacing: 4px;
 	color: ${lightBeige};
 	font-family: 'BWHaas', sans-serif;
-	font-size: 150%;
-	letter-spacing: 4px;
+	font-size: 110%;
 `;
 
 const Event = styled('div')`

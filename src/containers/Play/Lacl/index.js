@@ -18,7 +18,9 @@ import {
 	P,
 } from '../../../utils/content';
 
-const PlaySidebar = styled('div')``;
+const PlaySidebar = styled('div')`
+	max-height: calc(100vh - 80px);
+`;
 
 const SP = styled(P)`
 	text-align: justify;
@@ -41,12 +43,12 @@ const SidebarPlayTitle = styled(H4)`
 	letter-spacing: 4px;
 	color: ${primaryWhite};
 	font-family: 'BWHaas', sans-serif;
-	margin-top: 40px;
+	margin-top: 20px;
 	line-height: 1.5;
 `;
 
 const SidebarPlayInfos = styled(P)`
-	margin-top: 80px;
+	margin-top: 60px;
 `;
 
 const SubTitle = styled('span')`
@@ -61,6 +63,7 @@ const PlayContentWrapper = styled('div')`
 	padding-left: 40px;
 	padding-right: 40px;
 	flex: 2;
+	max-height: calc(100vh - 80px);
 `;
 
 const slideTop = keyframes`
@@ -129,7 +132,10 @@ class Lacl extends Component {
 						<PerfectScrollbar>
 							<PlayContent>
 								<SP>
-									<SubTitle>RÉSUMÉ</SubTitle>{' '}
+									<SubTitle>atelier</SubTitle>
+								</SP>
+								<SP>
+									<SubTitle>résumé</SubTitle>{' '}
 									<i>« L’acteur, cette larve »</i> : et si on
 									prenait la formule au sérieux ? Pour
 									(re)devenir des larves, au tout début de la
