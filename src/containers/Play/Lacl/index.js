@@ -1,20 +1,159 @@
-import React, { Component } from "react";
-import styled from "react-emotion";
-import { Link } from "react-router-dom";
-const LaclMain = styled("div")`
+import React, {Component} from 'react';
+import styled, {keyframes} from 'react-emotion';
+import {withRouter} from 'react-router-dom';
+import Carousel from 'nuka-carousel';
+import PerfectScrollbar from 'react-perfect-scrollbar';
+import 'react-perfect-scrollbar/dist/css/styles.css';
+
+import larve1 from './larve1.jpg';
+import larve2 from './larve2.jpg';
+import larve3 from './larve3.jpg';
+
+import {
+	FlexRow,
+	H4,
+	darkBeige,
+	primaryWhite,
+	lightBeige,
+	P,
+} from '../../../utils/content';
+
+const PlaySidebar = styled('div')``;
+
+const SidebarTitle = styled(H4)`
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: ${props => (props.isActive ? darkBeige : primaryWhite)};
+	font-family: 'BWHaas', sans-serif;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	&:hover {
+		color: ${darkBeige};
+	}
+`;
+
+const SidebarPlayTitle = styled(H4)`
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: ${primaryWhite};
+	font-family: 'BWHaas', sans-serif;
+	margin-top: 40px;
+`;
+
+const SidebarPlayInfos = styled(P)`
+	margin-top: 80px;
+`;
+
+const SubTitle = styled('span')`
+	letter-spacing: 4px;
+	color: ${lightBeige};
+	font-family: 'BWHaas', sans-serif;
+	text-transform: uppercase;
+	font-size: 80%;
+`;
+
+const PlayContentWrapper = styled('div')`
+	flex: 2;
+`;
+
+const slideTop = keyframes`
+	from {
+		opacity: 0;
+		transform: translate3d(0, -300%, 0);
+		filter: blur(3px);
+	}
+	to {
+		filter: blur(0px);
+		opacity: 1;
+		transform: translate3d(0, 0%, 0);
+	}
+`;
+
+const PlayContent = styled('div')`
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15vh;
+	max-width: 800px;
+	max-height: 70vh;
+	animation: ${slideTop} 0.8s ease-out;
+`;
+
+const LaclMain = styled('div')`
 	width: 100vw;
-	height: 100vh;
-	background: teal;
 `;
 
 class Lacl extends Component {
 	render() {
 		return (
 			<LaclMain>
-				<Link to="/home">Home</Link>
+				<FlexRow>
+					<PlaySidebar>
+						<SidebarTitle
+							onClick={() => {
+								this.props.history.push('/home');
+							}}
+						>
+							Retour
+						</SidebarTitle>
+						<SidebarPlayTitle>
+							L'acteur,
+							<br />
+							cette larve
+						</SidebarPlayTitle>
+						<SidebarPlayInfos>
+							<SubTitle>Durée :</SubTitle>
+							<br /> 2h (version courte) <br /> 4h (version
+							longue)
+							<br />
+							<br />
+							<SubTitle>
+								Conception
+								<br /> et direction :
+							</SubTitle>
+							<br />
+							Nina Ayachi
+							<br /> Icare Bamba
+							<br /> Victor Inisan
+							<br /> Adrien Madinier
+							<br />
+						</SidebarPlayInfos>
+					</PlaySidebar>
+					<PlayContentWrapper>
+						<PerfectScrollbar>
+							<PlayContent>
+								<P>
+									<SubTitle>RÉSUMÉ</SubTitle>{' '}
+									<i>« L’acteur, cette larve »</i> : et si on
+									prenait la formule au sérieux ? Pour
+									(re)devenir des larves, au tout début de la
+									vie, il faudrait s’atrophier, s’anémier, se
+									déformer ; s’aventurer dans un rapport
+									autarcique voire autiste au monde qui nous
+									entoure. À l’envers de toute virtuosité, de
+									toute performance, la larve cultiverait la
+									lenteur, l’émerveillement du nourrisson, une
+									certaine maladresse burlesque, la
+									presque-capacité de parler et la
+									presque-capacité d’agir. Au travers
+									d’exercices scéniques, tous plus ou moins
+									ramollis mais euphorisant, dans le mouvement
+									vers la parole et l’action, espérons-le, la
+									larve nous montrerait ce qu’il y a de
+									primitif, d’archaïque et de préhistorique
+									dans l’acte de jouer.
+								</P>
+								<Carousel autoplay={true}>
+									<img src={larve1} />
+									<img src={larve2} />
+									<img src={larve3} />
+								</Carousel>
+							</PlayContent>
+						</PerfectScrollbar>
+					</PlayContentWrapper>
+				</FlexRow>
 			</LaclMain>
 		);
 	}
 }
 
-export default Lacl;
+export default withRouter(Lacl);

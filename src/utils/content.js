@@ -10,43 +10,38 @@ const {
 
 // Colors
 export const primaryWhite = '#ffffff';
-export const primaryBlue = '#3860ff';
-export const primaryNavyBlue = '#171a44';
-export const primarySalmon = '#fbada1';
-export const secondaryRed = '#e62043';
-export const secondaryLightBlue = '#deebff';
-export const secondaryLightYellow = '#fffae6';
-export const secondaryLightGreen = '#e3fcef';
-export const gray50 = '#808080';
-export const gray20 = '#f4f5f7';
-export const gray30 = '#4d4d4d';
-export const gray70 = '#b3b3b3';
-export const gray80 = '#cccccc';
-export const signalGreen = '#36b37e44';
-export const signalOrange = '#ffab0044';
-export const signalRed = '#ff563044';
+export const lightBeige = '#ffebcd';
+export const darkBeige = '#deb887';
 // Typography
 
 export const Body = styled('div')`
 	${body};
+	color: ${primaryWhite};
 `;
 export const H1 = styled('h1')`
 	${h1};
+	font-weight: normal;
 `;
 export const H2 = styled('h2')`
 	${h2};
+	font-weight: normal;
 `;
 export const H3 = styled('h3')`
 	${h3};
+	font-weight: normal;
 `;
 export const H4 = styled('h4')`
 	${h4};
+	font-weight: normal;
+	font-size: 20px;
 `;
 export const H5 = styled('h5')`
 	${h5};
+	font-weight: normal;
 `;
 export const H6 = styled('h6')`
 	${h6};
+	font-weight: normal;
 `;
 export const P = styled('p')`
 	${content};

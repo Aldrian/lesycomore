@@ -1,25 +1,25 @@
 @font-face {
-	font-family: 'Ligne';
-	src: url('/fonts/Ligne-Medium.otf') format('opentype');
+	font-family: 'BWHaas';
+	src: url('/fonts/BWHaas.otf') format('opentype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Ligne';
-	src: url('/fonts/Ligne-SemiBold.otf') format('opentype');
-	font-weight: 600;
+	font-family: 'Olympian';
+	src: url('/fonts/Olympian.otf') format('opentype');
+	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Ligne';
-	src: url('/fonts/Ligne-Bold.otf') format('opentype');
-	font-weight: bold;
-	font-style: normal;
+	font-family: 'Olympian';
+	src: url('/fonts/Olympian-Italic.otf') format('opentype');
+	font-weight: normal;
+	font-style: italic;
 }
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Ligne', sans-serif;
+	font-family: 'Olympian', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
@@ -161,4 +161,13 @@ select[multiple] {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #deb887;
 }
