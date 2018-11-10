@@ -49,7 +49,7 @@ const SidebarPlayTitle = styled(H4)`
 `;
 
 const SidebarPlayInfos = styled(P)`
-	margin-top: 60px;
+	margin-top: 20px;
 `;
 
 const SubTitle = styled('span')`

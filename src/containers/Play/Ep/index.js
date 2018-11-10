@@ -49,7 +49,7 @@ const SidebarPlayTitle = styled(H4)`
 `;
 
 const SidebarPlayInfos = styled(P)`
-	margin-top: 60px;
+	margin-top: 20px;
 `;
 
 const SubTitle = styled('span')`
@@ -144,12 +144,6 @@ class Ep extends Component {
 					<PlayContentWrapper>
 						<PerfectScrollbar>
 							<PlayContent>
-								<Carousel autoplay={true}>
-									<img src={public1} />
-									<img src={public2} />
-									<img src={public3} />
-									<img src={public4} />
-								</Carousel>
 								<SP>
 									<SubTitle>résumé</SubTitle> Tous les soirs,
 									c’est l’hécatombe du petit cosmos : des
@@ -169,8 +163,14 @@ class Ep extends Component {
 									voyage émotif ; une tentative désespérée de
 									reconquérir la nuit.
 								</SP>
+								<Carousel autoplay={true}>
+									<img src={public1} />
+									<img src={public2} />
+									<img src={public3} />
+									<img src={public4} />
+								</Carousel>
 								<SP>
-									<SubTitle>NOTE D’INTENTION </SubTitle>{' '}
+									<SubTitle>note d'intention </SubTitle>{' '}
 									<i>
 										« On a les Lumières qu'on peut, notre
 										époque sera éclairée à la pollution
@@ -252,7 +252,7 @@ class Ep extends Component {
 									hic : elle rend les couleurs de manière
 									catastrophique… Coïncidence épistémologique
 									? Préserver la nature, c’est la rendre sous
-									un jour diminué ; la rendre à la nuit.
+									un jour diminué ; la rendre à la nuit.{' '}
 									<i>Éclairage Public</i> — à travers
 									l’épuisement de l’acteur — est une tentative
 									désespérée de reconquérir la nuit par
