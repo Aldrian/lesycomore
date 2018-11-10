@@ -23,6 +23,7 @@ const slideTop = keyframes`
 
 const HomeMainContentMain = styled('div')`
 	animation: ${slideTop} 0.8s ease-out;
+	padding-top: 20%;
 `;
 
 const Trees = styled(FlexRow)``;
@@ -30,9 +31,12 @@ const Trees = styled(FlexRow)``;
 const Tree = styled('div')`
 	cursor: pointer;
 	svg {
-		height: 400px;
+		height: 200px;
 		width: auto;
 		transition: all 0.3s ease;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	p {
 		font-size: 20px;

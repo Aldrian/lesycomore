@@ -25,8 +25,11 @@ const LandingIcon = styled('div')`
 `;
 
 const Logo = styled(logo)`
-	width: 150px;
+	width: 120px;
 	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	path {
 		fill: white;
 	}
@@ -36,12 +39,13 @@ const Logo = styled(logo)`
 `;
 
 const SidebarTitle = styled(H4)`
-	text-transform: uppercase;
-	letter-spacing: 4px;
+	font-variant: small-caps;
+	letter-spacing: 8px;
 	color: ${props => (props.isActive ? darkBeige : primaryWhite)};
 	font-family: 'BWHaas', sans-serif;
 	cursor: pointer;
 	transition: color 0.3s ease;
+	font-size: 130%;
 	&:hover {
 		color: ${darkBeige};
 	}
@@ -50,9 +54,9 @@ const SidebarTitle = styled(H4)`
 const SocialIcons = styled('div')`
 	margin-top: 40px;
 	svg {
-		width: 30px;
+		width: 20px;
 		height: auto;
-		margin-right: 10px;
+		margin-right: 15px;
 		cursor: pointer;
 	}
 `;
@@ -70,7 +74,7 @@ class SidebarHome extends Component {
 				>
 					<Logo />
 					<SidebarTitle isActive={activeMode === 'main'}>
-						Le sycomore
+						le sycomore
 					</SidebarTitle>
 				</LandingIcon>
 				<div>
@@ -99,9 +103,12 @@ class SidebarHome extends Component {
 						contact
 					</SidebarTitle>
 					<SocialIcons>
-						<Facebook />
-						<Vimeo />
-						<Instagram />
+						<a href="https://www.facebook.com/GroupeLeSycomore/">
+							<Facebook />
+						</a>
+						<a href="https://www.instagram.com/lesycomore/">
+							<Instagram />
+						</a>
 					</SocialIcons>
 				</div>
 			</SidebarHomeMain>

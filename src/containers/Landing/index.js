@@ -38,7 +38,10 @@ const LandingIcon = styled('div')`
 `;
 
 const Logo = styled(logo)`
-	width: 250px;
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	height: auto;
 	path {
 		fill: white;
@@ -47,7 +50,8 @@ const Logo = styled(logo)`
 
 const SiteName = styled(H4)`
 	text-transform: uppercase;
-	letter-spacing: 4px;
+	letter-spacing: 8px;
+	margin-top: 50px;
 	text-align: center;
 	color: ${primaryWhite};
 	font-family: 'BWHaas', sans-serif;
