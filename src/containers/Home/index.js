@@ -10,11 +10,13 @@ import HomeAboutContent from '../../components/HomeAboutContent';
 import {FlexRow, primaryWhite} from '../../utils/content';
 
 const HomeMain = styled('div')`
-	width: 100vw;
+	width: calc(100vw - 80px);
 `;
 
 const MainContentWrapper = styled('div')`
 	flex: 2;
+	padding-left: 40px;
+	padding-right: 40px;
 `;
 
 const MainContent = styled('div')`

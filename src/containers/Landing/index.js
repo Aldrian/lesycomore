@@ -7,7 +7,7 @@ import {H4, primaryWhite} from '../../utils/content';
 import {ReactComponent as logo} from '../logo.svg';
 
 const LandingMain = styled('div')`
-	width: 100vw;
+	width: calc(100vw - 80px);
 	height: calc(100vh - 40px);
 `;
 

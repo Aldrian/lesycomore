@@ -54,6 +54,8 @@ const SubTitle = styled('span')`
 `;
 
 const PlayContentWrapper = styled('div')`
+	padding-left: 40px;
+	padding-right: 40px;
 	flex: 2;
 `;
 
@@ -80,7 +82,7 @@ const PlayContent = styled('div')`
 `;
 
 const EpMain = styled('div')`
-	width: 100vw;
+	width: calc(100vw - 80px);
 `;
 
 class Ep extends Component {
