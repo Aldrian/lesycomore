@@ -13,7 +13,7 @@ import {ReactComponent as Instagram} from './instagram.svg';
 
 const SidebarHomeMain = styled(FlexColumn)`
 	height: 94vh;
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 900px) {
 		display: none;
 	}
 `;

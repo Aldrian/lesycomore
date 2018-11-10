@@ -19,8 +19,17 @@ import {
 	P,
 } from '../../../utils/content';
 
+const PlayRow = styled(FlexRow)`
+	@media screen and (max-width: 900px) {
+		flex-direction: column-reverse;
+	}
+`;
+
 const PlaySidebar = styled('div')`
 	max-height: calc(100vh - 80px);
+	@media screen and (max-width: 900px) {
+		margin-top: 40px;
+	}
 `;
 
 const SP = styled(P)`
@@ -65,6 +74,10 @@ const PlayContentWrapper = styled('div')`
 	padding-right: 40px;
 	flex: 2;
 	max-height: calc(100vh - 80px);
+	@media screen and (max-width: 900px) {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 `;
 
 const slideTop = keyframes`
@@ -87,6 +100,10 @@ const PlayContent = styled('div')`
 	max-width: 800px;
 	max-height: 70vh;
 	animation: ${slideTop} 0.8s ease-out;
+	@media screen and (max-width: 900px) {
+		margin-top: 20px;
+		max-height: calc(100vh - 80px);
+	}
 `;
 
 const EpMain = styled('div')`
@@ -103,7 +120,9 @@ class Ep extends Component {
 	}
 
 	updateDimensions = () => {
-		this.setState({boxWidth: this.playMain.getBoundingClientRect().width});
+		this.setState({
+			boxWidth: this.playMain.getBoundingClientRect().width,
+		});
 	};
 
 	componentDidMount() {
@@ -118,7 +137,7 @@ class Ep extends Component {
 	render() {
 		return (
 			<EpMain>
-				<FlexRow>
+				<PlayRow>
 					<PlaySidebar>
 						<SidebarTitle
 							onClick={() => {
@@ -302,7 +321,7 @@ class Ep extends Component {
 							</PlayContent>
 						</PerfectScrollbar>
 					</PlayContentWrapper>
-				</FlexRow>
+				</PlayRow>
 			</EpMain>
 		);
 	}
