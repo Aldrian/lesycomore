@@ -49,11 +49,15 @@ class HomeEventsContent extends Component {
 					<Title>horaires :</Title> 17h-22h <br />
 					<br />
 					<Title>
-						<A href="">>réservations</A>
+						<A href="https://www.yesgolive.com/le-generateur/a-lecoute-du-bal-reve">
+							>réservations
+						</A>
 					</Title>
 					<br />
 					<Title>
-						<A href="">>event</A>
+						<A href="https://www.facebook.com/events/156896861924818/">
+							>event
+						</A>
 					</Title>
 					<br />
 				</Event>
@@ -72,11 +76,13 @@ class HomeEventsContent extends Component {
 					<br />
 					<br />
 					<Title>
-						<A href="">>réservations</A>
+						<A href="mailto:judy@le-sycomore.fr">>réservations</A>
 					</Title>
 					<br />
 					<Title>
-						<A href="">>event</A>
+						<A href="https://www.facebook.com/events/156896861924818/">
+							>event
+						</A>
 					</Title>
 				</Event>
 			</HomeEventsContentMain>

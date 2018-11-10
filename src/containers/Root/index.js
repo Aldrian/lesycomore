@@ -11,7 +11,7 @@ import backgroundImage from './background.jpg';
 
 const BodyMain = styled(Body)`
 	position: relative;
-	width: 100vw;
+	width: calc(100vw - 80px);
 	height: calc(100vh - 40px);
 	background-image: url(${backgroundImage});
 	background-size: cover;

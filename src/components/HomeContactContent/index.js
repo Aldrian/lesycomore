@@ -51,7 +51,9 @@ class HomeContactContent extends Component {
 				06 43 65 71 59
 				<br />
 				<Title>
-					<A href="">>contact@le-sycomore.com</A>
+					<A href="mailto:contact@le-sycomore.com">
+						>contact@le-sycomore.com
+					</A>
 				</Title>
 			</HomeContactContentMain>
 		);
