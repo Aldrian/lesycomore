@@ -12,9 +12,8 @@ import {ReactComponent as Facebook} from './facebook.svg';
 import {ReactComponent as Instagram} from './instagram.svg';
 
 const SidebarHomeMain = styled(FlexColumn)`
-	height: 94vh;
-	@media screen and (max-width: 900px) {
-		display: none;
+	@media screen and (min-width: 900px) {
+		height: 94vh;
 	}
 `;
 
@@ -24,6 +23,9 @@ const LandingIcon = styled('div')`
 		filter: blur(3px);
 	}
 	cursor: pointer;
+	@media screen and (max-width: 900px) {
+		display: none;
+	}
 `;
 
 const Logo = styled(logo)`
@@ -37,7 +39,6 @@ const Logo = styled(logo)`
 	}
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
 `;
 
 const SidebarTitle = styled(H4)`

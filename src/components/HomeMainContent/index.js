@@ -24,6 +24,9 @@ const slideTop = keyframes`
 const HomeMainContentMain = styled('div')`
 	animation: ${slideTop} 0.8s ease-out;
 	padding-top: 20%;
+	@media screen and (max-width: 900px) {
+		padding-top: 0;
+	}
 `;
 
 const Trees = styled(FlexRow)``;
@@ -59,6 +62,14 @@ const Tree = styled('div')`
 			filter: blur(1px);
 		}
 	}
+	@media screen and (max-width: 900px) {
+		margin-top: ${props => (props.marginTop ? props.marginTop : '0px')};
+		p {
+			opacity: 1;
+			filter: blur(0px);
+			text-align: center;
+		}
+	}
 `;
 
 class HomeMainContent extends Component {
@@ -70,6 +81,7 @@ class HomeMainContent extends Component {
 						onClick={() => {
 							this.props.history.push('/play/arma');
 						}}
+						marginTop="30%"
 					>
 						<Arbre1 />
 						<P>Au revoir mon amour</P>
@@ -86,6 +98,7 @@ class HomeMainContent extends Component {
 						onClick={() => {
 							this.props.history.push('/play/ep');
 						}}
+						marginTop="60%"
 					>
 						<Arbre1 />
 						<P>Éclairage public</P>
