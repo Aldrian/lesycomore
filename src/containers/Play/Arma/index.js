@@ -75,6 +75,9 @@ const PlaySidebar = styled('div')`
 
 const SP = styled(P)`
 	text-align: justify;
+	@media screen and (max-width: 900px) {
+		text-align: left;
+	}
 `;
 
 const SidebarTitle = styled(H4)`
@@ -96,6 +99,13 @@ const SidebarPlayTitle = styled(H4)`
 	font-family: 'BWHaas', sans-serif;
 	margin-top: 20px;
 	line-height: 1.5;
+
+	@media screen and (min-width: 900px) {
+		display: ${props => (props.isMobile ? 'none' : 'block')};
+	}
+	@media screen and (max-width: 900px) {
+		display: ${props => (props.isMobile ? 'block' : 'none')};
+	}
 `;
 
 const SidebarPlayInfos = styled(P)`
@@ -151,6 +161,9 @@ const PlayContent = styled('div')`
 const ArmaMain = styled('div')`
 	width: calc(100vw - 80px);
 	max-height: calc(100vh - 80px);
+	@media screen and (max-width: 900px) {
+		width: calc(100vw - 20px);
+	}
 `;
 
 class Arma extends Component {
@@ -195,7 +208,7 @@ class Arma extends Component {
 						>
 							retour
 						</SidebarTitle>
-						<SidebarPlayTitle>
+						<SidebarPlayTitle isMobile={false}>
 							au revoir <br /> mon amour
 						</SidebarPlayTitle>
 						<SidebarPlayInfos>
@@ -241,6 +254,12 @@ class Arma extends Component {
 									this.playMain = elem;
 								}}
 							>
+								<SP>
+									<SidebarPlayTitle isMobile={true}>
+										au revoir <br /> mon amour
+									</SidebarPlayTitle>
+								</SP>
+
 								<SP>
 									<SubTitle>résumé</SubTitle>{' '}
 									<i>

@@ -74,6 +74,9 @@ const PlaySidebar = styled('div')`
 
 const SP = styled(P)`
 	text-align: justify;
+	@media screen and (max-width: 900px) {
+		text-align: left;
+	}
 `;
 
 const SidebarTitle = styled(H4)`
@@ -93,8 +96,14 @@ const SidebarPlayTitle = styled(H4)`
 	letter-spacing: 4px;
 	color: ${primaryWhite};
 	font-family: 'BWHaas', sans-serif;
-	margin-top: 20px;
+	margin-top: 2v0px;
 	line-height: 1.5;
+	@media screen and (min-width: 900px) {
+		display: ${props => (props.isMobile ? 'none' : 'block')};
+	}
+	@media screen and (max-width: 900px) {
+		display: ${props => (props.isMobile ? 'block' : 'none')};
+	}
 `;
 
 const SidebarPlayInfos = styled(P)`
@@ -149,6 +158,9 @@ const PlayContent = styled('div')`
 
 const LaclMain = styled('div')`
 	width: calc(100vw - 80px);
+	@media screen and (max-width: 900px) {
+		width: calc(100vw - 20px);
+	}
 `;
 
 class Lacl extends Component {
@@ -193,7 +205,7 @@ class Lacl extends Component {
 						>
 							retour
 						</SidebarTitle>
-						<SidebarPlayTitle>
+						<SidebarPlayTitle isMobile={false}>
 							l'acteur,
 							<br />
 							cette larve
@@ -223,6 +235,13 @@ class Lacl extends Component {
 									this.playMain = elem;
 								}}
 							>
+								<SP>
+									<SidebarPlayTitle isMobile={true}>
+										l'acteur,
+										<br />
+										cette larve
+									</SidebarPlayTitle>
+								</SP>
 								<SP>
 									<SubTitle>atelier</SubTitle>
 								</SP>

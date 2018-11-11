@@ -21,6 +21,9 @@ const slideTop = keyframes`
 
 const SP = styled(P)`
 	text-align: justify;
+	@media screen and (max-width: 900px) {
+		text-align: left;
+	}
 `;
 const Title = styled('span')`
 	font-variant: small-caps;
@@ -34,6 +37,12 @@ const HomeAboutContentMain = styled('div')`
 	animation: ${slideTop} 0.8s ease-out;
 	padding-left: 20px;
 	padding-right: 20px;
+	@media screen and (max-width: 900px) {
+		height: calc(100vh - 220px);
+		max-height: calc(100vh - 220px);
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 `;
 
 class HomeAboutContent extends Component {

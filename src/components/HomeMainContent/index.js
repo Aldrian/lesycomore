@@ -22,6 +22,7 @@ const slideTop = keyframes`
 `;
 
 const HomeMainContentMain = styled('div')`
+	display: block;
 	animation: ${slideTop} 0.8s ease-out;
 	padding-top: 20%;
 	@media screen and (max-width: 900px) {
@@ -29,7 +30,11 @@ const HomeMainContentMain = styled('div')`
 	}
 `;
 
-const Trees = styled(FlexRow)``;
+const Trees = styled(FlexRow)`
+	@media screen and (max-width: 900px) {
+		height: calc(100vh - 180px);
+	}
+`;
 
 const Tree = styled('div')`
 	cursor: pointer;
@@ -64,10 +69,14 @@ const Tree = styled('div')`
 	}
 	@media screen and (max-width: 900px) {
 		margin-top: ${props => (props.marginTop ? props.marginTop : '0px')};
+		svg {
+			height: 120px;
+		}
 		p {
 			opacity: 1;
 			filter: blur(0px);
 			text-align: center;
+			font-size: 14px;
 		}
 	}
 `;
@@ -81,7 +90,7 @@ class HomeMainContent extends Component {
 						onClick={() => {
 							this.props.history.push('/play/arma');
 						}}
-						marginTop="30%"
+						marginTop="45%"
 					>
 						<Arbre1 />
 						<P>Au revoir mon amour</P>
@@ -90,6 +99,7 @@ class HomeMainContent extends Component {
 						onClick={() => {
 							this.props.history.push('/play/lacl');
 						}}
+						marginTop="15%"
 					>
 						<Arbre1 />
 						<P>L'acteur, cette larve</P>

@@ -9,6 +9,9 @@ import {ReactComponent as logo} from '../logo.svg';
 const LandingMain = styled('div')`
 	width: calc(100vw - 80px);
 	height: calc(100vh - 40px);
+	@media screen and (max-width: 900px) {
+		width: calc(100vw - 20px);
+	}
 `;
 
 const slideTop = keyframes`
@@ -55,6 +58,7 @@ const SiteName = styled(H4)`
 	text-align: center;
 	color: ${primaryWhite};
 	font-family: 'BWHaas', sans-serif;
+	width: 194px;
 `;
 
 class Landing extends Component {

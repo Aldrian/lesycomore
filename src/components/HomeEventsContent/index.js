@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import styled, {keyframes} from 'react-emotion';
+import PerfectScrollbar from 'react-perfect-scrollbar';
 
 import {lightBeige} from '../../utils/content';
 
@@ -18,6 +19,13 @@ const slideTop = keyframes`
 
 const HomeEventsContentMain = styled('div')`
 	animation: ${slideTop} 0.8s ease-out;
+	@media screen and (max-width: 900px) {
+		display: block;
+		padding-left: 20px;
+		padding-right: 20px;
+		height: calc(100vh - 220px);
+		margin-top: 20px;
+	}
 `;
 
 const Title = styled('span')`
@@ -39,61 +47,69 @@ const A = styled('a')`
 class HomeEventsContent extends Component {
 	render() {
 		return (
-			<HomeEventsContentMain>
-				<Event>
-					<Title>18 nov. 2018</Title>
-					<br />
-					Le Sycomore dans <br /> <i>À l’écoute du Bal Rêvé</i> <br />
-					d'Alberto Sorbelli
-					<br />
-					<Title>horaires :</Title> 17h-22h <br />
-					<Title>
-						<A
-							href="https://www.yesgolive.com/le-generateur/a-lecoute-du-bal-reve"
-							target="_blank"
-						>
-							réservations
-						</A>
-					</Title>
-					<br />
-					<Title>
-						<A
-							href="https://www.facebook.com/events/156896861924818/"
-							target="_blank"
-						>
-							event
-						</A>
-					</Title>
-					<br />
-				</Event>
+			<PerfectScrollbar>
+				<HomeEventsContentMain>
+					<Event>
+						<Title>18 nov. 2018</Title>
+						<br />
+						Le Sycomore dans <br /> <i>
+							À l’écoute du Bal Rêvé
+						</i>{' '}
+						<br />
+						d'Alberto Sorbelli
+						<br />
+						<Title>horaires :</Title> 17h-22h <br />
+						<Title>
+							<A
+								href="https://www.yesgolive.com/le-generateur/a-lecoute-du-bal-reve"
+								target="_blank"
+							>
+								réservations
+							</A>
+						</Title>
+						<br />
+						<Title>
+							<A
+								href="https://www.facebook.com/events/156896861924818/"
+								target="_blank"
+							>
+								event
+							</A>
+						</Title>
+						<br />
+					</Event>
 
-				<Event>
-					<Title>23-25 nov. 2018</Title>
-					<br />
-					Nuits du Sycomore <br />— #Automnale
-					<br />
-					<i>Au revoir mon amour</i> <br />
-					<Title>horaires :</Title>
-					<br />
-					Vendredi et samedi de 20h à 00h
-					<br /> Dimanche de 18h à 22h
-					<br />
-					<Title>
-						<A href="mailto:judy@le-sycomore.fr" target="_blank">
-							réservations
-						</A>
-					</Title>
-					<br />
-					<Title>
-						<A
-							href="https://www.facebook.com/events/156896861924818/"
-							target="_blank"
-						>
-							event
-						</A>
-					</Title>
-				</Event>
-			</HomeEventsContentMain>
+					<Event>
+						<Title>23-25 nov. 2018</Title>
+						<br />
+						Nuits du Sycomore <br />— #Automnale
+						<br />
+						<i>Au revoir mon amour</i> <br />
+						<Title>horaires :</Title>
+						<br />
+						Vendredi et samedi de 20h à 00h
+						<br /> Dimanche de 18h à 22h
+						<br />
+						<Title>
+							<A
+								href="mailto:judy@le-sycomore.fr"
+								target="_blank"
+							>
+								réservations
+							</A>
+						</Title>
+						<br />
+						<Title>
+							<A
+								href="https://www.facebook.com/events/156896861924818/"
+								target="_blank"
+							>
+								event
+							</A>
+						</Title>
+					</Event>
+				</HomeEventsContentMain>
+			</PerfectScrollbar>
 		);
 	}
 }

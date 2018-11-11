@@ -16,6 +16,10 @@ const BodyMain = styled(Body)`
 	background-image: url(${backgroundImage});
 	background-size: cover;
 	padding: 20px 40px;
+	@media screen and (max-width: 900px) {
+		padding: 20px 10px;
+		width: calc(100vw - 20px);
+	}
 `;
 
 const slide = val => spring(val, {

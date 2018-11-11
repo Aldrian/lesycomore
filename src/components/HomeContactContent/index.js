@@ -19,6 +19,13 @@ const slideTop = keyframes`
 
 const HomeContactContentMain = styled('div')`
 	animation: ${slideTop} 0.8s ease-out;
+	@media screen and (max-width: 900px) {
+		height: calc(100vh - 270px);
+		max-height: calc(100vh - 270px);
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 80px;
+	}
 `;
 
 const Title = styled('span')`
