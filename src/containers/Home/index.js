@@ -53,6 +53,7 @@ const Title = styled(H4)`
 `;
 
 const HomeMain = styled('div')`
+	width: calc(100vw - 80px);
 	@media screen and (max-width: 900px) {
 		width: calc(100vw - 20px);
 	}
