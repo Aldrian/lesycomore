@@ -101,7 +101,7 @@ class HomeEventsContent extends Component {
 						<br />
 						<Title>
 							<A
-								href="https://www.facebook.com/events/156896861924818/"
+								href="https://www.facebook.com/events/2193559374010109/"
 								target="_blank"
 							>
 								event

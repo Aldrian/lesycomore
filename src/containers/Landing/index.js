@@ -58,7 +58,7 @@ const SiteName = styled(H4)`
 	text-align: center;
 	color: ${primaryWhite};
 	font-family: 'BWHaas', sans-serif;
-	width: 194px;
+	width: 250px;
 `;
 
 class Landing extends Component {

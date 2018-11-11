@@ -101,7 +101,7 @@ class HomeMainContent extends Component {
 						}}
 						marginTop="5vh"
 					>
-						<Arbre1 />
+						<Arbre2 />
 						<P>L'acteur, cette larve</P>
 					</Tree>
 					<Tree
@@ -110,7 +110,7 @@ class HomeMainContent extends Component {
 						}}
 						marginTop="25vh"
 					>
-						<Arbre1 />
+						<Arbre3 />
 						<P>Éclairage public</P>
 					</Tree>
 				</Trees>
