@@ -90,7 +90,7 @@ class HomeMainContent extends Component {
 						onClick={() => {
 							this.props.history.push('/play/arma');
 						}}
-						marginTop="45%"
+						marginTop="15vh"
 					>
 						<Arbre1 />
 						<P>Au revoir mon amour</P>
@@ -99,7 +99,7 @@ class HomeMainContent extends Component {
 						onClick={() => {
 							this.props.history.push('/play/lacl');
 						}}
-						marginTop="15%"
+						marginTop="5vh"
 					>
 						<Arbre1 />
 						<P>L'acteur, cette larve</P>
@@ -108,7 +108,7 @@ class HomeMainContent extends Component {
 						onClick={() => {
 							this.props.history.push('/play/ep');
 						}}
-						marginTop="60%"
+						marginTop="25vh"
 					>
 						<Arbre1 />
 						<P>Éclairage public</P>
