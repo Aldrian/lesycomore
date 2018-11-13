@@ -251,7 +251,7 @@ class Lacl extends Component {
 									prenait la formule au sérieux ? Pour
 									(re)devenir des larves, au tout début de la
 									vie, il faudrait s’atrophier, s’anémier, se
-									déformer ; s’aventurer dans un rapport
+									déformer&nbsp;; s’aventurer dans un rapport
 									autarcique voire autiste au monde qui nous
 									entoure. À l’envers de toute virtuosité, de
 									toute performance, la larve cultiverait la

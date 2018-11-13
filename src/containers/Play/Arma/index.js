@@ -275,7 +275,7 @@ class Arma extends Component {
 										Louis ; son corps va bientôt la
 										traverser. Une figure de l’autre monde
 										le remplacera lors d’une cérémonie de
-										départ : qui est-ce ? »
+										départ : qui est-ce&nbsp;? »
 									</i>
 								</SP>
 								<SP>

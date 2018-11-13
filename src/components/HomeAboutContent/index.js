@@ -57,67 +57,70 @@ class HomeAboutContent extends Component {
 					</SP>
 					<SP>
 						Dans les premiers spectacles d’André Engel à Strasbourg,
-						la fiction s’enclenche « à cause » du spectateur
+						la fiction s’enclenche «&nbsp;à cause&nbsp;» du
+						spectateur
 					</SP>
-					<SP>L’histoire :</SP>
+					<SP>L’histoire&nbsp;:</SP>
 					<SP>le dérèglement d’un spectacle savamment préparé.</SP>
 					<SP>
 						L’apparence plastique d’une harmonie (surtout dans{' '}
 						<i>Yaïck</i>) dont la mise en scène s’écroule pour en
-						exhumer une autre : celle du situationniste Engel.
+						exhumer une autre&nbsp;: celle du situationniste Engel.
 					</SP>
 					<SP>
 						<i>
-							« L’art de l’acteur ne consiste plus à informer les
-							spectateurs sur l’acteur et sur la scène, mais au
-							contraire à informer le spectateur sur lui-même.»
+							«&nbsp;L’art de l’acteur ne consiste plus à informer
+							les spectateurs sur l’acteur et sur la scène, mais
+							au contraire à informer le spectateur sur lui-même.»
 						</i>
 					</SP>
 					<SP>
 						<i>Le Sycomore</i> veut approfondir le terme de
-						spectacle : spectacle social, médiatique et artistique.
+						spectacle&nbsp;: spectacle social, médiatique et
+						artistique.
 					</SP>
 					<SP>
 						Engel écrit en 1977 :<br />
 					</SP>
 					<SP>
 						<i>
-							«Privé de toute procuration, le spectateur est
+							«&nbsp;Privé de toute procuration, le spectateur est
 							renvoyé à sa présence suspecte. (…) Or s’il éprouve
 							des difficultés à comprendre le pourquoi de sa
 							présence, le spectateur doit désormais chercher à la
 							justifier. Il n’est plus là pour regarder et
 							entendre, mais il doit entendre et regarder afin de
-							comprendre pourquoi il est là ».
+							comprendre pourquoi il est là&nbsp;».
 						</i>
 					</SP>
 					<SP>
 						La friction avec le spectateur crée le drame. Plus
-						précisément :
+						précisément&nbsp;:
 					</SP>
 					<SP>Le spectateur enclenche la fiction.</SP>
 					<SP>
 						Le metteur en scène crée un dispositif pour la fiction.
 					</SP>
 					<SP>
-						Kantor dit ceci : <br />
+						Kantor dit ceci&nbsp;: <br />
 					</SP>
 					<SP>
 						<i>
-							« Dans leur première phase d’existence, ils [les
-							acteurs] appartiennent à la réalité de la salle —
-							disons simplement qu’ils sont quasiment des
+							«&nbsp;Dans leur première phase d’existence, ils
+							[les acteurs] appartiennent à la réalité de la salle
+							— disons simplement qu’ils sont quasiment des
 							spectateurs. À partir de là se développent leur
 							indépendance, leur individualité, leur altérité, et
 							lentement, ils acquièrent un plus grand ou un plus
-							petit degré d’illusion de personnages scéniques. »
+							petit degré d’illusion de personnages
+							scéniques.&nbsp;»
 						</i>
 					</SP>
 					<SP>
-						La fiction (des acteurs) se charge petit à petit : en
-						illusion et en matière.
+						La fiction (des acteurs) se charge petit à petit&nbsp;:
+						en illusion et en matière.
 					</SP>
-					<SP>Elle s’agence : c’est le tempo.</SP>
+					<SP>Elle s’agence&nbsp;: c’est le tempo.</SP>
 					<SP>
 						Germant lentement à l’intérieur de la réalité et mourant
 						à petit feu.
@@ -132,7 +135,7 @@ class HomeAboutContent extends Component {
 					<SP>
 						Peut-être seulement, à force de surcharges (acteurs,
 						lumière, son, décor…), qu’elles finiront par tournoyer,
-						resplendir, exploser ; et seulement là elles seront
+						resplendir, exploser&nbsp;; et seulement là elles seront
 						baroques voire pathétiques, et les situations
 						deviendront complètement folles, la matière sera
 						électrique et les acteurs monstrueux, et on verra à
@@ -140,10 +143,10 @@ class HomeAboutContent extends Component {
 					</SP>
 					<SP>
 						<i>
-							« Créer en elle [la réalité] un espace imaginaire
-							qui devait rapidement s’avérer bien plus risqué et
-							bien plus fou que le « merveilleux » du surréalisme
-							et la liberté de l’abstraction »
+							«&nbsp;Créer en elle [la réalité] un espace
+							imaginaire qui devait rapidement s’avérer bien plus
+							risqué et bien plus fou que le « merveilleux » du
+							surréalisme et la liberté de l’abstraction&nbsp;»
 						</i>
 						, dit encore Kantor.
 					</SP>

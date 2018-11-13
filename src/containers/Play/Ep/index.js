@@ -212,10 +212,10 @@ class Ep extends Component {
 							éclairage <br /> public
 						</SidebarPlayTitle>
 						<SidebarPlayInfos>
-							<SubTitle>durée :</SubTitle> 1h
+							<SubTitle>durée&nbsp;:</SubTitle> 1h
 							<br />
 							<br />
-							<SubTitle>conception :</SubTitle>
+							<SubTitle>conception&nbsp;:</SubTitle>
 							<br />
 							Nina Ayachi
 							<br />
@@ -224,19 +224,19 @@ class Ep extends Component {
 							<br /> Adrien Madinier
 							<br />
 							<br />
-							<SubTitle>mise en scène :</SubTitle>
+							<SubTitle>mise en scène&nbsp;:</SubTitle>
 							<br />
 							Victor Inisan
 							<br />
 							<br />
 							<SubTitle>
-								assistanat <br />à la mise en scène :{' '}
+								assistanat <br />à la mise en scène&nbsp;:{' '}
 							</SubTitle>
 							<br />
 							Adrien Madinier
 							<br />
 							<br />
-							<SubTitle>chorégraphie : </SubTitle>
+							<SubTitle>chorégraphie&nbsp;: </SubTitle>
 							<br />
 							Salomé Dugraindelorge
 							<br />
@@ -261,22 +261,23 @@ class Ep extends Component {
 								</SP>
 								<SP>
 									<SubTitle>résumé</SubTitle> Tous les soirs,
-									c’est l’hécatombe du petit cosmos : des
+									c’est l’hécatombe du petit cosmos&nbsp;: des
 									milliers d’insectes, irrésistiblement
 									attirés par la lumière artificielle,
 									tournent et s’épuisent autour des
 									réverbères... C’est le phénomène de
-									phototaxie ; triste fait de la pollution
-									lumineuse ? Dans un dispositif interactif et
-									ludique, <i>Éclairage Public</i> explore le
-									chemin de l’insecte à la découverte des
-									lampadaires, de la première ampoule au fond
-									de la nuit jusqu'au bain glorieux de
-									lumière. Un chemin d’épuisement aussi pour
-									les performers, qui perturbent et décalent
-									l’imaginaire didactique pour interpréter ce
-									voyage émotif. Qu’est-ce que la phototaxie
-									expliquée par un fan de Joe Dassin ?
+									phototaxie&nbsp;; triste fait de la
+									pollution lumineuse&nbsp;? Dans un
+									dispositif interactif et ludique,{' '}
+									<i>Éclairage Public</i> explore le chemin de
+									l’insecte à la découverte des lampadaires,
+									de la première ampoule au fond de la nuit
+									jusqu'au bain glorieux de lumière. Un chemin
+									d’épuisement aussi pour les performers, qui
+									perturbent et décalent l’imaginaire
+									didactique pour interpréter ce voyage
+									émotif. Qu’est-ce que la phototaxie
+									expliquée par un fan de Joe Dassin&nbsp;?
 								</SP>
 								<Carousel
 									autoplay={true}
@@ -307,14 +308,15 @@ class Ep extends Component {
 									1150 millions de tonnes de CO2 rejetés par
 									an. Cependant, un esprit écologique
 									s’emploie heureusement à la pallier par une
-									série de restrictions récentes :
-									interdiction des lampadaires « boule » (qui
-									envoient inutilement 50% de leur lumière
-									vers le ciel), des enseignes lumineuses, des
-									lampes à incandescence… Et pour les
-									remplacer : l'unique LED et ses réverbères
-									blanchis. La LED - lumière de notre temps -
-									est-elle la panacée ?
+									série de restrictions récentes&nbsp;:
+									interdiction des lampadaires
+									«&nbsp;boule&nbsp;» (qui envoient
+									inutilement 50% de leur lumière vers le
+									ciel), des enseignes lumineuses, des lampes
+									à incandescence… Et pour les
+									remplacer&nbsp;:&nbsp;l'unique LED et ses
+									réverbères blanchis. La LED - lumière de
+									notre temps - est-elle la panacée&nbsp;?
 								</SP>
 
 								<SP>
@@ -328,45 +330,47 @@ class Ep extends Component {
 									considérablement la faune et la flore
 									environnante. La LED est notamment la diode
 									tombale des insectes qui se repèrent grâce à
-									la Lune : ils s’épuisent à confondre les
-									blancs. Autant de morts prématurées… C’est
-									le <i>fatum</i> de la phototaxie : le
-									mouvement des organismes face à la lumière.
-									Qu’elle soit négative (la vie du noir
-									disparaît) ou positive (le trop-de-lumière
-									désoriente à mourir), l’hécatombe croît sous
-									une bannière immaculée. A-t-on oublié que la
-									plupart des animaux sont nocturnes ?
+									la Lune&nbsp;: ils s’épuisent à confondre
+									les blancs. Autant de morts prématurées…
+									C’est le <i>fatum</i> de la
+									phototaxie&nbsp;: le mouvement des
+									organismes face à la lumière. Qu’elle soit
+									négative (la vie du noir disparaît) ou
+									positive (le trop-de-lumière désoriente à
+									mourir), l’hécatombe croît sous une bannière
+									immaculée. A-t-on oublié que la plupart des
+									animaux sont nocturnes&nbsp;?
 								</SP>
 								<SP>
 									<i>Éclairage Public</i> illustre la
 									phototaxie positive d’un insecte — du
 									premier réverbère à la profusion de lumière.
-									Un voeu d’échec ? Les performers sont
-									résolument humains : ils ne peuvent
+									Un voeu d’échec&nbsp;? Les performers sont
+									résolument humains&nbsp;: ils ne peuvent
 									s’accoutrer d’aucun déguisement… Il leur
-									faut donc réaliser l’impossible : émouvoir
-									sur un thème didactique.{' '}
+									faut donc réaliser l’impossible&nbsp;:
+									émouvoir sur un thème didactique.{' '}
 									<i>Éclairage Public</i> a ainsi choisi de
 									déranger l’imaginaire pédagogique en
 									immergeant le spectateur dans un dispositif
 									ludique et interactif qui déniche le
 									burlesque du propos. L’acteur n’est pas un
-									insecte, il s’en amuse : il devra expliquer
-									avec une méthode et des émotions humaines…
-									En l’occurrence : l’insecte devient un fan
-									de Joe Dassin, suivi à l’instar d’un animal
-									dans un reportage animalier. Non pas fortuit
-									: la musique de Joe Dassin est à l’émotion
-									ce que la lumière est à l’insecte — un
-									facteur d’épuisement. La parabole par le fan
-									veut humaniser l’inconnu.
+									insecte, il s’en amuse&nbsp;: il devra
+									expliquer avec une méthode et des émotions
+									humaines… En l’occurrence&nbsp;: l’insecte
+									devient un fan de Joe Dassin, suivi à
+									l’instar d’un animal dans un reportage
+									animalier. Non pas fortuit : la musique de
+									Joe Dassin est à l’émotion ce que la lumière
+									est à l’insecte — un facteur d’épuisement.
+									La parabole par le fan veut humaniser
+									l’inconnu.
 								</SP>
 								<SP>
 									Il est unanime, aujourd’hui, que la lumière
 									la moins nocive pour la faune et la flore
 									est la lampe au sodium basse pression. Seul
-									hic : elle rend les couleurs de manière
+									hic&nbsp;: elle rend les couleurs de manière
 									catastrophique… Coïncidence épistémologique
 									? Préserver la nature, c’est la rendre sous
 									un jour diminué ; la rendre à la nuit.{' '}
@@ -376,17 +380,18 @@ class Ep extends Component {
 									l’émotion. Mêlant expérimentations
 									lumineuses et performance d’acteur, le
 									spectacle s’élève contre l’hégémonie des
-									blanches lumières ; il trace la carte d’une
-									recoloration voire d’un noircissement de la
-									nuit.{' '}
+									blanches lumières&nbsp;; il trace la carte
+									d’une recoloration voire d’un noircissement
+									de la nuit.{' '}
 									<i>
-										« La nuit ne parle que du jour, elle en
-										est le pressentiment, elle en est la
-										réserve et la profondeur »
+										«&nbsp;La nuit ne parle que du jour,
+										elle en est le pressentiment, elle en
+										est la réserve et la profondeur&nbsp;»
 									</i>
 									, disait Blanchot. Qui veut conquérir la
-									nuit remporte le jour : ainsi l’éclairage
-									public se fait vaste combat politique.
+									nuit remporte le jour&nbsp;: ainsi
+									l’éclairage public se fait vaste combat
+									politique.
 								</SP>
 							</PlayContent>
 						</PerfectScrollbar>
