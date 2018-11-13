@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import styled, {keyframes} from 'react-emotion';
 import {withRouter} from 'react-router-dom';
 
-import {FlexRow, P, lightBeige} from '../../utils/content';
+import {
+	FlexRow, P, lightBeige, H4, primaryWhite,
+} from '../../utils/content';
 
 import {ReactComponent as Arbre1} from './arbre1.svg';
 import {ReactComponent as Arbre2} from './arbre2.svg';
@@ -36,8 +38,19 @@ const Trees = styled(FlexRow)`
 	}
 `;
 
+const PlayTitle = styled(H4)`
+	font-variant: small-caps;
+	letter-spacing: 8px;
+	color: ${primaryWhite};
+	font-family: 'BWHaas', sans-serif;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	font-size: 110%;
+`;
+
 const Tree = styled('div')`
 	cursor: pointer;
+	text-align: center;
 	svg {
 		height: 150px;
 		width: auto;
@@ -46,9 +59,7 @@ const Tree = styled('div')`
 		margin-left: auto;
 		margin-right: auto;
 	}
-	p {
-		font-size: 20px;
-		font-style: italic;
+	h4 {
 		cursor: pointer;
 		transition: all 0.3s ease;
 		opacity: 0;
@@ -59,7 +70,7 @@ const Tree = styled('div')`
 	}
 
 	&:hover {
-		p {
+		h4 {
 			opacity: 1;
 			filter: blur(0px);
 		}
@@ -72,7 +83,7 @@ const Tree = styled('div')`
 		svg {
 			height: 120px;
 		}
-		p {
+		h4 {
 			opacity: 1;
 			filter: blur(0px);
 			text-align: center;
@@ -93,16 +104,7 @@ class HomeMainContent extends Component {
 						marginTop="15vh"
 					>
 						<Arbre1 />
-						<P>Au revoir mon amour</P>
-					</Tree>
-					<Tree
-						onClick={() => {
-							this.props.history.push('/play/lacl');
-						}}
-						marginTop="5vh"
-					>
-						<Arbre2 />
-						<P>L'acteur, cette larve</P>
+						<PlayTitle>au revoir mon amour</PlayTitle>
 					</Tree>
 					<Tree
 						onClick={() => {
@@ -111,7 +113,16 @@ class HomeMainContent extends Component {
 						marginTop="25vh"
 					>
 						<Arbre3 />
-						<P>Éclairage public</P>
+						<PlayTitle>éclairage public</PlayTitle>
+					</Tree>
+					<Tree
+						onClick={() => {
+							this.props.history.push('/play/lacl');
+						}}
+						marginTop="5vh"
+					>
+						<Arbre2 />
+						<PlayTitle>l'acteur, cette larve</PlayTitle>
 					</Tree>
 				</Trees>
 			</HomeMainContentMain>

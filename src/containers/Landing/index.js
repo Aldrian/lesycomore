@@ -32,11 +32,21 @@ const LandingIcon = styled('div')`
 	top: 50%;
 	left: 50%;
 	transform: translate3d(-50%, -50%, 0);
-	animation: ${slideTop} 0.8s ease-out;
-	transition: all 0.3s ease;
+	animation: ${slideTop} 1.5s ease-out;
+	transition: all 0.6s ease;
 	cursor: pointer;
 	&:hover {
+		svg {
+			filter: blur(3px);
+		}
+		h4 {
+			filter: blur(0px);
+			opacity: 1;
+		}
+	}
+	h4 {
 		filter: blur(3px);
+		opacity: 0;
 	}
 `;
 
@@ -46,6 +56,7 @@ const Logo = styled(logo)`
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
+	transition: all 0.6s ease;
 	path {
 		fill: white;
 	}
@@ -59,6 +70,7 @@ const SiteName = styled(H4)`
 	color: ${primaryWhite};
 	font-family: 'BWHaas', sans-serif;
 	width: 250px;
+	transition: all 0.6s ease;
 `;
 
 class Landing extends Component {

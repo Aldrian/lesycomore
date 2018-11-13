@@ -20,9 +20,9 @@ const slideTop = keyframes`
 `;
 
 const SP = styled(P)`
-	text-align: justify;
+	text-align: ${props => (props.alignRight ? 'right' : 'justify')};
 	@media screen and (max-width: 900px) {
-		text-align: left;
+		text-align: ${props => (props.alignRight ? 'right' : 'left')};
 	}
 `;
 const Title = styled('span')`
@@ -130,7 +130,7 @@ class HomeAboutContent extends Component {
 						part ainsi sur les traces d’un art d’interaction
 						(situationniste) et d’immersion (lente).
 					</SP>
-					<SP>
+					<SP alignRight>
 						<i>À suivre</i>
 					</SP>
 				</HomeAboutContentMain>

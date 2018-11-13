@@ -5,10 +5,12 @@ import Carousel from 'nuka-carousel';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 
-import louis from './louis.jpg';
-import arma1 from './arma1.JPG';
-import arma2 from './arma2.jpg';
-import arma3 from './arma3.jpg';
+import arma1 from './1.jpg';
+import arma2 from './2.JPG';
+import arma3 from './3.JPG';
+import arma4 from './4.JPG';
+import arma5 from './5.JPG';
+import arma6 from './6.JPG';
 
 import {
 	FlexRow,
@@ -234,6 +236,11 @@ class Arma extends Component {
 							<br /> Nicolas Hadot
 							<br />
 							<br />
+							<SubTitle>collaboration artistique</SubTitle>
+							<br />
+							Gaspar Delusio
+							<br />
+							<br />
 							<SubTitle>avec :</SubTitle>
 							<br /> Nina Ayachi
 							<br /> Giulia de Sia
@@ -295,10 +302,12 @@ class Arma extends Component {
 									autoplay={true}
 									width={`${this.state.boxWidth}px`}
 								>
-									<img src={louis} />
 									<img src={arma1} />
 									<img src={arma2} />
 									<img src={arma3} />
+									<img src={arma4} />
+									<img src={arma5} />
+									<img src={arma6} />
 								</Carousel>
 							</PlayContent>
 						</PerfectScrollbar>

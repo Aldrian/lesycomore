@@ -224,6 +224,11 @@ class Ep extends Component {
 							<br /> Adrien Madinier
 							<br />
 							<br />
+							<SubTitle>mise en scène :</SubTitle>
+							<br />
+							Victor Inisan
+							<br />
+							<br />
 							<SubTitle>
 								collaboration <br />à la mise en scène :{' '}
 							</SubTitle>
