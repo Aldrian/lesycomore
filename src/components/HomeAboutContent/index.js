@@ -56,12 +56,15 @@ class HomeAboutContent extends Component {
 						<i>Un art pour le spectateur.</i>
 					</SP>
 					<SP>
-						Dans les premiers spectacles d’Engel à Strasbourg, la
-						fiction s’enclenche « à cause » du spectateur.
-						L’histoire : le dérèglement d’un spectacle savamment
-						préparé. L’apparence plastique d’une harmonie (surtout
-						dans <i>Yaïck</i>) dont la mise en scène s’écroule pour
-						en exhumer une autre : celle du situationniste Engel.
+						Dans les premiers spectacles d’André Engel à Strasbourg,
+						la fiction s’enclenche « à cause » du spectateur
+					</SP>
+					<SP>L’histoire :</SP>
+					<SP>le dérèglement d’un spectacle savamment préparé.</SP>
+					<SP>
+						L’apparence plastique d’une harmonie (surtout dans{' '}
+						<i>Yaïck</i>) dont la mise en scène s’écroule pour en
+						exhumer une autre : celle du situationniste Engel.
 					</SP>
 					<SP>
 						<i>
@@ -73,7 +76,11 @@ class HomeAboutContent extends Component {
 					<SP>
 						<i>Le Sycomore</i> veut approfondir le terme de
 						spectacle : spectacle social, médiatique et artistique.
+					</SP>
+					<SP>
 						Engel écrit en 1977 :<br />
+					</SP>
+					<SP>
 						<i>
 							«Privé de toute procuration, le spectateur est
 							renvoyé à sa présence suspecte. (…) Or s’il éprouve
@@ -86,9 +93,16 @@ class HomeAboutContent extends Component {
 					</SP>
 					<SP>
 						La friction avec le spectateur crée le drame. Plus
-						précisément : le spectateur enclenche la fiction, le
-						metteur en scène crée un dispositif pour la fiction.
+						précisément :
+					</SP>
+					<SP>Le spectateur enclenche la fiction.</SP>
+					<SP>
+						Le metteur en scène crée un dispositif pour la fiction.
+					</SP>
+					<SP>
 						Kantor dit ceci : <br />
+					</SP>
+					<SP>
 						<i>
 							« Dans leur première phase d’existence, ils [les
 							acteurs] appartiennent à la réalité de la salle —
@@ -101,17 +115,25 @@ class HomeAboutContent extends Component {
 					</SP>
 					<SP>
 						La fiction (des acteurs) se charge petit à petit : en
-						illusion et en matière. Elle s’agence : c’est le tempo.
+						illusion et en matière.
+					</SP>
+					<SP>Elle s’agence : c’est le tempo.</SP>
+					<SP>
 						Germant lentement à l’intérieur de la réalité et mourant
-						à petit feu. Voilà — elle ébrèche le spectateur. Le
-						spectacle n’en est qu’une mesure (à la limite, la
-						floraison). Point de mises en scène du réel à
-						l’intérieur du <i>Sycomore</i> ! — Les fictions
-						craignent le naturalisme, elles ont connu le monde
-						renversé. Peut-être seulement, à force de surcharges
-						(acteurs, lumière, son, décor…), qu’elles finiront par
-						tournoyer, resplendir, exploser ; et seulement là elles
-						seront baroques voire pathétiques, et les situations
+						à petit feu.
+					</SP>
+					<SP>
+						Voilà — elle ébrèche le spectateur. Le spectacle n’en
+						est qu’une mesure (à la limite, la floraison). Point de
+						mises en scène du réel à l’intérieur du <i>Sycomore</i>{' '}
+						! — Les fictions craignent le naturalisme, elles ont
+						connu le monde renversé.
+					</SP>
+					<SP>
+						Peut-être seulement, à force de surcharges (acteurs,
+						lumière, son, décor…), qu’elles finiront par tournoyer,
+						resplendir, exploser ; et seulement là elles seront
+						baroques voire pathétiques, et les situations
 						deviendront complètement folles, la matière sera
 						électrique et les acteurs monstrueux, et on verra à
 						l’oeuvre des forces inassouvies.

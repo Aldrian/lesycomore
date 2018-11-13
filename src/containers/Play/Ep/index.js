@@ -212,7 +212,7 @@ class Ep extends Component {
 							éclairage <br /> public
 						</SidebarPlayTitle>
 						<SidebarPlayInfos>
-							<SubTitle>durée :</SubTitle> 1h30
+							<SubTitle>durée :</SubTitle> 1h
 							<br />
 							<br />
 							<SubTitle>conception :</SubTitle>
@@ -230,7 +230,7 @@ class Ep extends Component {
 							<br />
 							<br />
 							<SubTitle>
-								collaboration <br />à la mise en scène :{' '}
+								assistanat <br />à la mise en scène :{' '}
 							</SubTitle>
 							<br />
 							Adrien Madinier
@@ -243,9 +243,8 @@ class Ep extends Component {
 							<br />
 							<SubTitle>avec :</SubTitle>
 							<br /> Nina Ayachi
-							<br /> Victor Inisan et
+							<br /> Victor Inisan
 							<br /> Adrien Madinier
-							<br /> (en alternance)
 						</SidebarPlayInfos>
 					</PlaySidebar>
 					<PlayContentWrapper>
@@ -276,8 +275,8 @@ class Ep extends Component {
 									lumière. Un chemin d’épuisement aussi pour
 									les performers, qui perturbent et décalent
 									l’imaginaire didactique pour interpréter ce
-									voyage émotif ; une tentative désespérée de
-									reconquérir la nuit.
+									voyage émotif. Qu’est-ce que la phototaxie
+									expliquée par un fan de Joe Dassin ?
 								</SP>
 								<Carousel
 									autoplay={true}
@@ -361,8 +360,7 @@ class Ep extends Component {
 									: la musique de Joe Dassin est à l’émotion
 									ce que la lumière est à l’insecte — un
 									facteur d’épuisement. La parabole par le fan
-									veut humaniser l’inconnu — une utopie
-									revendiquée.
+									veut humaniser l’inconnu.
 								</SP>
 								<SP>
 									Il est unanime, aujourd’hui, que la lumière

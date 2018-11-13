@@ -244,13 +244,13 @@ class Arma extends Component {
 							<SubTitle>avec :</SubTitle>
 							<br /> Nina Ayachi
 							<br /> Giulia de Sia
+							<br /> Victor Inisan
 							<br /> Adrien Madinier
-							<br /> Jean-Baptiste Gautain
+							<br /> Jean-Baptiste Cautain
 							<br /> Zoé Guillemaud
 							<br /> Salomé Dugraindelorge
 							<br /> Clara Chrétien
-							<br />
-							Juliette De Ribaucourt
+							<br /> Juliette De Ribaucourt
 							<br /> Ruben Badinter
 						</SidebarPlayInfos>
 					</PlaySidebar>
@@ -293,7 +293,7 @@ class Arma extends Component {
 									sereinement lors d’une cérémonie hypnotique.
 								</SP>
 								<SP>
-									À mi-chemin entre théâtre et danse,
+									À la lisière de la performance,
 									<i> Au revoir mon amour</i> imagine une
 									parabole visuelle et poétique sur la
 									migration des corps et des âmes.{' '}

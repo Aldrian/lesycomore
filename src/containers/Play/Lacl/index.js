@@ -222,7 +222,7 @@ class Lacl extends Component {
 							</SubTitle>
 							<br />
 							Nina Ayachi
-							<br /> Icare Bamba
+							<br /> Gaspar Delusio
 							<br /> Victor Inisan
 							<br /> Adrien Madinier
 							<br />
@@ -260,11 +260,11 @@ class Lacl extends Component {
 									presque-capacité de parler et la
 									presque-capacité d’agir. Au travers
 									d’exercices scéniques, tous plus ou moins
-									ramollis mais euphorisant, dans le mouvement
-									vers la parole et l’action, espérons-le, la
-									larve nous montrerait ce qu’il y a de
-									primitif, d’archaïque et de préhistorique
-									dans l’acte de jouer.
+									ramollis mais euphorisants, dans le
+									mouvement vers la parole et l’action,
+									espérons-le, la larve nous montrerait ce
+									qu’il y a de primitif, d’archaïque et de
+									préhistorique dans l’acte de jouer.
 								</SP>
 								<Carousel
 									autoplay={true}

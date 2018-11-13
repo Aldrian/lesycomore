@@ -58,7 +58,7 @@ class HomeEventsContent extends Component {
 						<br />
 						d'Alberto Sorbelli
 						<br />
-						<Title>horaires :</Title> 17h-22h <br />
+						<Title>horaire :</Title> 17h-22h <br />
 						<Title>
 							<A
 								href="https://www.yesgolive.com/le-generateur/a-lecoute-du-bal-reve"
