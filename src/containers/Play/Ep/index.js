@@ -233,7 +233,7 @@ class Ep extends Component {
 								collaboration <br />à la mise en scène :{' '}
 							</SubTitle>
 							<br />
-							Adrien madinier
+							Adrien Madinier
 							<br />
 							<br />
 							<SubTitle>chorégraphie : </SubTitle>
