@@ -58,10 +58,10 @@ class HomeAboutContent extends Component {
 					<SP>
 						Dans les premiers spectacles d’André Engel à Strasbourg,
 						la fiction s’enclenche «&nbsp;à cause&nbsp;» du
-						spectateur
+						spectateur.
 					</SP>
 					<SP>L’histoire&nbsp;:</SP>
-					<SP>le dérèglement d’un spectacle savamment préparé.</SP>
+					<SP>Le dérèglement d’un spectacle savamment préparé,</SP>
 					<SP>
 						L’apparence plastique d’une harmonie (surtout dans{' '}
 						<i>Yaïck</i>) dont la mise en scène s’écroule pour en
@@ -97,7 +97,7 @@ class HomeAboutContent extends Component {
 						La friction avec le spectateur crée le drame. Plus
 						précisément&nbsp;:
 					</SP>
-					<SP>Le spectateur enclenche la fiction.</SP>
+					<SP>Le spectateur enclenche la fiction,</SP>
 					<SP>
 						Le metteur en scène crée un dispositif pour la fiction.
 					</SP>
