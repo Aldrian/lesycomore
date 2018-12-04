@@ -66,6 +66,7 @@ class HomeContactContent extends Component {
 					</A>
 				</Title>
 				<br />
+				<br />
 				SIRET : 84361319100017
 				<br />
 				APE : 9001Z
