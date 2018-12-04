@@ -62,7 +62,7 @@ class HomeContactContent extends Component {
 				<br />
 				<Title>
 					<A href="mailto:contact@le-sycomore.fr">
-						contact@le-sycomore.com
+						contact@le-sycomore.fr
 					</A>
 				</Title>
 				<br />
