@@ -61,10 +61,15 @@ class HomeContactContent extends Component {
 				06 43 65 71 59
 				<br />
 				<Title>
-					<A href="mailto:contact@le-sycomore.com">
+					<A href="mailto:contact@le-sycomore.fr">
 						contact@le-sycomore.com
 					</A>
 				</Title>
+				<br />
+				SIRET : 84361319100017
+				<br />
+				APE : 9001Z
+				<br />
 			</HomeContactContentMain>
 		);
 	}
