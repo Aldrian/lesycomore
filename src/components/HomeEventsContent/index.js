@@ -54,7 +54,6 @@ class HomeEventsContent extends Component {
 						<br />
 						Nuits du Sycomore <br />— #Hivernales
 						<br />
-						<i>Au revoir mon amour</i> <br />
 						<Title>horaires :</Title>
 						<br />
 						Vendredi et samedi de 17h à 00h
