@@ -50,49 +50,18 @@ class HomeEventsContent extends Component {
 			<PerfectScrollbar>
 				<HomeEventsContentMain>
 					<Event>
-						<Title>18 nov. 2018</Title>
+						<Title>25-26 jan. 2019</Title>
 						<br />
-						Le Sycomore dans <br /> <i>
-							À l’écoute du Bal Rêvé
-						</i>{' '}
-						<br />
-						d'Alberto Sorbelli
-						<br />
-						<Title>horaire :</Title> 17h-22h <br />
-						<Title>
-							<A
-								href="https://www.yesgolive.com/le-generateur/a-lecoute-du-bal-reve"
-								target="_blank"
-							>
-								réservations
-							</A>
-						</Title>
-						<br />
-						<Title>
-							<A
-								href="https://www.facebook.com/events/156896861924818/"
-								target="_blank"
-							>
-								event
-							</A>
-						</Title>
-						<br />
-					</Event>
-
-					<Event>
-						<Title>23-25 nov. 2018</Title>
-						<br />
-						Nuits du Sycomore <br />— #Automnale
+						Nuits du Sycomore <br />— #Hivernales
 						<br />
 						<i>Au revoir mon amour</i> <br />
 						<Title>horaires :</Title>
 						<br />
-						Vendredi et samedi de 20h à 00h
-						<br /> Dimanche de 18h à 22h
+						Vendredi et samedi de 17h à 00h
 						<br />
 						<Title>
 							<A
-								href="mailto:judy@le-sycomore.fr"
+								href="https://www.helloasso.com/associations/le-sycomore/evenements/nuits-du-sycomore-hivernales?fbclid=IwAR33C02CEybtkJD9PLLSx-F2FW7AkFh_25v2b2FDmq_wGJtKq6SmqIbdndk"
 								target="_blank"
 							>
 								réservations
@@ -101,7 +70,7 @@ class HomeEventsContent extends Component {
 						<br />
 						<Title>
 							<A
-								href="https://www.facebook.com/events/2193559374010109/"
+								href="https://www.facebook.com/events/389724231764739/"
 								target="_blank"
 							>
 								event
