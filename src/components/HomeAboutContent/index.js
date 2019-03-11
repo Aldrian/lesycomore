@@ -154,7 +154,58 @@ class HomeAboutContent extends Component {
 						Avides des univers qui lui échappent, le <i>Sycomore</i>{' '}
 						part ainsi sur les traces d’un art d’interaction
 						(situationniste) et d’immersion (lente).
+						<br />
+						<br />
 					</SP>
+
+					<SP>
+						<Title>carnets — #2</Title>
+						<br />
+						<i>Un art pour les objets.</i>
+					</SP>
+					<SP>
+						Le théâtre qui se met en quête de disséquer la réalité,
+						de l'élucider, perd tout ce qui fait sa gloire. Car sur
+						la table de chirurgie qu'est devenue la scène, l'objet
+						est traité de manière utilitaire, assigné à la tâche de
+						s'emparer de la réalité, de la comprendre. Et alors que
+						tout a pour fonction de représenter, la matière n'a plus
+						droit de vie. L'espace baroque et surchargé lui, empêche
+						toute chose – et surtout l'acteur – de vivre de manière
+						autonome. La possibilité de vivre et d'habiter un espace
+						resurgit alors ; étrangement, on étouffe moins lorsque
+						la scène a été vidée de son vide.
+					</SP>
+
+					<SP>
+						Ainsi, des meubles, des objets – désuets de préférence –
+						s'entassent sur la scène. Il s'agit d'amasser fenêtres,
+						tapis, cloisons, poutres, bibelots de toute sorte. Grâce
+						à cet amas de matière, il est soudain possible de
+						protéger les réalités les plus décisives, celles qui
+						sont derrière le théâtre et en nous. Si le paravent est
+						l'objet le plus impérieux du théâtre, c'est parce qu'il
+						peut dissimuler à la vue du public des scènes, composer
+						des coins d'ombre. Si nous parvenions à créer une
+						architecture labyrinthique, un bastion empêchant
+						d'accéder à ce qui ne veut pas être vu, le théâtre ne
+						serait pas des entrailles ouvertes que l'on exhibe
+						impudiquement au public mais un ruban cousu sur une
+						plaie, la possibilité de faire contrebande de secrets.
+					</SP>
+
+					<SP>
+						Aussi, l'objet sur scène doit être libéré de sa fonction
+						de représenter. Ce que renferme le meuble est plus
+						décisif pour le théâtre que ce qu'il doit représenter.
+						Si une armoire est sur scène, elle n'est pas là pour
+						figurer un intérieur, mais pour exciter en nous le désir
+						d'ouvrir ses portes, de fouiller ses tiroirs. Et si
+						quelqu'un venait à plonger au fond pour lui arracher ses
+						secrets, d'étonnants enchevêtrements de bois, de
+						planches et d'homme pourraient alors se réaliser.
+					</SP>
+
 					<SP alignRight>
 						<i>À suivre</i>
 					</SP>
